@@ -1,0 +1,11 @@
+#summary Resources to be used for project
+
+= Resources =
+
+        a) Image editing tools and online tutorials will be used as tools to help develop the final product.
+        
+        b) Game Maker 8.0 Professional will be the game engine used for this project.
+        
+        c) Game Maker 8.0 Professional as well as some photo editing software will be used to develop the game. GML (Game Maker language) will be the programming language used. Some images may be downloaded from the internet, and appropriate credit will be given in the documentation.
+        
+        d) All aspects of the game development will be done on personal computers owned by the individual team members running Windows 7.
