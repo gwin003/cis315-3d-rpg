@@ -1,0 +1,9 @@
+#summary What to do to identify and take care of risks that occur during production
+
+= Risk Management Plan =
+
+        a) All risks will be documented using a 10 pt severity scale, where higher numbers mean higher risk. More severe risks will be assessed first, and will be dealt with accordingly. If the risk presents a large problem to the project, the risk will be mitigated. 
+        
+        b) As I said before, risks will be assessed on a 10 pt scale.
+        
+        c) A risk plan will be made depending on the level of severity of the risk. Risks can be mitigated, transferred, accepted or avoided.
