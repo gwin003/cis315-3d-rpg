@@ -1,0 +1,7 @@
+#summary One-sentence summary of this page.
+
+= Project Plan and Schedule =
+
+        a) The first milestone will be the completion of the first iteration. The first iteration will be the the creation of the character, as well as the military base, which will include the various NPCs. The second iteration will include an outside room, which will have random enemies scattered throughout and you will also be able to shoot the enemies. All other iterations will be determined at a later date. 
+        
+        b) Deadlines for the project include a basic demonstration halfway through the semester, and the final deadline will be at the end of the semester. These are the dates that the project deliverables will be presented.
