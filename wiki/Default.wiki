@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary Proposal of the project
 
 = Project Proposal =
 
@@ -25,6 +25,7 @@
   d. At this time the game will not be developed to be playable online. Although if it seems that time is not restrictive, a multiplayer/online mode may be incorporated in the final game. The game will be designed in 3d using game maker functions or 3D game maker extensions.
 
  b) Non-functional
+
   a. Security will not be an issue in our game.  The game will not be overly complicated, so performance is not a main concern either. Security will need to be addressed in the event we choose to add online capabilities. 
 
 = 3. Team Organization =
