@@ -1,0 +1,7 @@
+#summary How team members will be kept under check
+
+= Tracking and Quality Measurement Plan =
+
+        a) Team members will evaluate others work upon completion of a section of the project.
+        
+        b) Weekly or bi-weekly deadlines will be presented to each team member, and the deadlines will be discussed at meetings.
