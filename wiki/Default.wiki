@@ -1,5 +1,4 @@
 #summary Proposal of the project
-<wiki:toc max_depth="1" />
 = Project Proposal =
 
 = 1. Problem Definition =
