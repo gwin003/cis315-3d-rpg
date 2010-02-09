@@ -1,4 +1,4 @@
-#Project proposal of what the game is going to be about and the mechanics involved.
+#summary Project proposal of what the game is going to be about and the mechanics involved.
 
 1. Problem Definition
         a) The story or definition of the Game
