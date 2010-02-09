@@ -1,9 +1,0 @@
-#summary Team members and responsibilities
-
-= Team Organization =
-
-        a) Team members are Alix Frombach, Michael Grimes and Adam Gwin.
-        
-        b) Responsibilities of each team member will be decided based on the specific part of the project being implemented or designed. Animation, design, coding and testing are possible examples of responsibilities.
-        
-        c) The three members of the team are all co-leaders in this project. No one team member has more responsibility than the others.
