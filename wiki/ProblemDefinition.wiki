@@ -1,5 +1,5 @@
 #summary Story of the game
-#sidebar Features
+
 = Problem Definition =
 
 a) The story or definition of the Game
