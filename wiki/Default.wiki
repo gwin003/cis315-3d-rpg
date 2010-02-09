@@ -1,31 +1,23 @@
 #summary Proposal of the project
-
+<wiki:toc max_depth="1" />
 = Project Proposal =
 
 = 1. Problem Definition =
  a) The story or definition of the Game
-
-   a. The world has been taken over by a plague of zombies. You are stationed at a military base in northern Texas. The colony set up there is a group of the last known survivors in the area, and you are one of the chief commanders in charge of defending the base from zombie infestation/attacks. The scientists in the colony are close to discovering a cure for the zombie plague, and need your help. In order to make the cure, they need some rare ingredients that cannot be found nearby. You are in charge of venturing out to find these ingredients and return them to the scientists before time runs out, and the colony is taken over by the zombies....
-   
-   b. The main characters involved in this game would be the main hero, whom the user will play as and control. Other characters in the game would include the other common non-playable characters (NPCs) who you can interact with in the military base. Enemies involved will also be zombies, some common and other boss enemies who are abnormally strong and will require more damage to kill.         
-   c. As defined in part a, success will be achieved by defeating all the boss enemies and acquiring the rare ingredients that the scientists need to make the cure.
+    a. The world has been taken over by a plague of zombies. You are stationed at a military base in northern Texas. The colony set up there is a group of the last known survivors in the area, and you are one of the chief commanders in charge of defending the base from zombie infestation/attacks. The scientists in the colony are close to discovering a cure for the zombie plague, and need your help. In order to make the cure, they need some rare ingredients that cannot be found nearby. You are in charge of venturing out to find these ingredients and return them to the scientists before time runs out, and the colony is taken over by the zombies....   
+   b. The main characters involved in this game would be the main hero, whom the user will play as and control. Other characters in the game would include the other common non-playable characters (NPCs) who you can interact with in the military base. Enemies involved will also be zombies, some common and other boss enemies who are abnormally strong and will require more damage to kill.           
+  c. As defined in part a, success will be achieved by defeating all the boss enemies and acquiring the rare ingredients that the scientists need to make the cure.
  b) Targeted Market
-
   a. The targeted market for this game would be people who play PC games and enjoy RPG or FPS games.  And of course, anyone who enjoys killing zombies.
         
 = 2. Features =
  a) Functional Features
-
-  a. Users will be able to save and reload game files.
- 
-  b. As this game will be primarily one-player, there will not be a need to have an online score board. There may be a local high score list implemented on each machine. At a later stage in the project, we may also implement an achievement system where the player is rewarded once he/she completes a certain task or event.
-            
-  c. AI will be use a very basic structure. Enemy characters will move towards the hero at all times and will attack once the hero and the zombies collide. Some zombies will be laying siege to the military base, where defenders will be shooting at the zombies. 
- 
+     a. Users will be able to save and reload game files.
+    b. As this game will be primarily one-player, there will not be a need to have an online score board. There may be a local high score list implemented on each machine. At a later stage in the project, we may also implement an achievement system where the player is rewarded once he/she completes a certain task or event.  
+   c. AI will be use a very basic structure. Enemy characters will move towards the hero at all times and will attack once the hero and the zombies collide. Some zombies will be laying siege to the military base, where defenders will be shooting at the zombies. 
   d. At this time the game will not be developed to be playable online. Although if it seems that time is not restrictive, a multiplayer/online mode may be incorporated in the final game. The game will be designed in 3d using game maker functions or 3D game maker extensions.
 
  b) Non-functional
-
   a. Security will not be an issue in our game.  The game will not be overly complicated, so performance is not a main concern either. Security will need to be addressed in the event we choose to add online capabilities. 
 
 = 3. Team Organization =
