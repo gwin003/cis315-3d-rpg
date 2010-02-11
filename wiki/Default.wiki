@@ -1,5 +1,5 @@
 #summary Proposal of the project
-<h1> Project Proposal <\h1>
+<h2> Project Proposal 
 
 = 1. Problem Definition =
  * The story or definition of the Game
