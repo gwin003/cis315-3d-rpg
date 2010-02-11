@@ -11,48 +11,48 @@
         
 = 2. Features =
  a) Functional Features
-     a. Users will be able to save and reload game files.
-    b. As this game will be primarily one-player, there will not be a need to have an online score board. There may be a local high score list implemented on each machine. At a later stage in the project, we may also implement an achievement system where the player is rewarded once he/she completes a certain task or event.  
-   c. AI will be use a very basic structure. Enemy characters will move towards the hero at all times and will attack once the hero and the zombies collide. Some zombies will be laying siege to the military base, where defenders will be shooting at the zombies. 
-  d. At this time the game will not be developed to be playable online. Although if it seems that time is not restrictive, a multiplayer/online mode may be incorporated in the final game. The game will be designed in a top-down 2D perspective using game maker functions.
+     * Users will be able to save and reload game files.
+    * As this game will be primarily one-player, there will not be a need to have an online score board. There may be a local high score list implemented on each machine. At a later stage in the project, we may also implement an achievement system where the player is rewarded once he/she completes a certain task or event.  
+   * AI will be use a very basic structure. Enemy characters will move towards the hero at all times and will attack once the hero and the zombies collide. Some zombies will be laying siege to the military base, where defenders will be shooting at the zombies. 
+  * At this time the game will not be developed to be playable online. Although if it seems that time is not restrictive, a multiplayer/online mode may be incorporated in the final game. The game will be designed in a top-down 2D perspective using game maker functions.
 
  b) Non-functional
-  a. Security will not be an issue in our game.  The game will not be overly complicated, so performance is not a main concern either. Security will need to be addressed only in the event we choose to add online capabilities. 
+  * Security will not be an issue in our game.  The game will not be overly complicated, so performance is not a main concern either. Security will need to be addressed only in the event we choose to add online capabilities. 
 
 = 3. Team Organization =
- a) Team members are Alix Frombach, Michael Grimes and Adam Gwin.
+ * Team members are Alix Frombach, Michael Grimes and Adam Gwin.
 
- b) Responsibilities of each team member will be decided based on the specific part of the project being implemented or designed. Animation, design, coding and testing are possible examples of responsibilities.
+ * Responsibilities of each team member will be decided based on the specific part of the project being implemented or designed. Animation, design, coding and testing are possible examples of responsibilities.
 
- c) The three members of the team are all co-leaders in this project. No one team member has more responsibility than the others.
+ * The three members of the team are all co-leaders in this project. No one team member has more responsibility than the others.
     
 = 4. Communication Policies =
- a) Formal methods of communication within our team of 3 members will include individual meetings with other team members, as well as weekly or bi-weekly progress meetings to monitor progress. Informal communication can include phone calls or emails. Google Wave can also be an option when communicating with team members.
+ * Formal methods of communication within our team of 3 members will include individual meetings with other team members, as well as weekly or bi-weekly progress meetings to monitor progress. Informal communication can include phone calls or emails. Google Wave can also be an option when communicating with team members.
        
- b) Formal and informal methods of communication within a larger team would be mostly the same.  
+ * Formal and informal methods of communication within a larger team would be mostly the same.  
     
 = 5. Resources =
- a) Image editing tools and online tutorials will be used as tools to help develop the final product.
+ * Image editing tools and online tutorials will be used as tools to help develop the final product.
 
- b) Game Maker 8.0 Professional will be the game engine used for this project.
+ * Game Maker 8.0 Professional will be the game engine used for this project.
        
- c) Game Maker 8.0 Professional as well as some photo editing software will be used to develop the game. GML (Game Maker language) will be the programming language used. Some images may be downloaded from the internet, and appropriate credit will be given in the documentation.
+ * Game Maker 8.0 Professional as well as some photo editing software will be used to develop the game. GML (Game Maker language) will be the programming language used. Some images may be downloaded from the internet, and appropriate credit will be given in the documentation.
        
- d) All aspects of the game development will be done on personal computers owned by the individual team members running Windows 7.
+ * All aspects of the game development will be done on personal computers owned by the individual team members running Windows 7.
     
 = 6. Project Plan and Schedule =
- a) The first milestone will be the completion of the first iteration. The first iteration will be the the creation of the character, as well as the military base, which will include the various NPCs. The second iteration will include an outside room, which will have random enemies scattered throughout and you will also be able to shoot the enemies. All other iterations will be determined at a later date. 
+ * The first milestone will be the completion of the first iteration. The first iteration will be the the creation of the character, as well as the military base, which will include the various NPCs. The second iteration will include an outside room, which will have random enemies scattered throughout and you will also be able to shoot the enemies. All other iterations will be determined at a later date. 
        
- b) Deadlines for the project include a basic demonstration halfway through the semester, and the final deadline will be at the end of the semester. These are the dates that the project deliverables will be presented.
+ * Deadlines for the project include a basic demonstration halfway through the semester, and the final deadline will be at the end of the semester. These are the dates that the project deliverables will be presented.
     
 = 7. Risk Management Plan =
- a) All risks will be documented using a 10 pt severity scale, where higher numbers mean higher risk. More severe risks will be assessed first, and will be dealt with accordingly. If the risk presents a large problem to the project, the risk will be mitigated. 
+ * All risks will be documented using a 10 pt severity scale, where higher numbers mean higher risk. More severe risks will be assessed first, and will be dealt with accordingly. If the risk presents a large problem to the project, the risk will be mitigated. 
        
- b) As I said before, risks will be assessed on a 10 pt scale.
+ * As I said before, risks will be assessed on a 10 pt scale.
        
- c) A risk plan will be made depending on the level of severity of the risk. Risks can be mitigated, transferred, accepted or avoided.
+ * A risk plan will be made depending on the level of severity of the risk. Risks can be mitigated, transferred, accepted or avoided.
     
 = 8. Tracking and Quality Measurement Plan =
- a) Team members will evaluate others work upon completion of a section of the project.
+ * Team members will evaluate others work upon completion of a section of the project.
        
- b) Weekly or bi-weekly deadlines will be presented to each team member, and the deadlines will be discussed at meetings.
+ * Weekly or bi-weekly deadlines will be presented to each team member, and the deadlines will be discussed at meetings.
