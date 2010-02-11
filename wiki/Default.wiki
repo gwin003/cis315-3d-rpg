@@ -1,7 +1,7 @@
 #summary Proposal of the project
 <h1> Project Proposal 
 
-<h2> 1. Problem Definition 
+<h2> 1. Problem Definition </h2>
  * The story or definition of the Game
    # The world has been taken over by a plague of zombies. You are stationed at a military base in northern Texas. The colony set up there is a group of the last known survivors in the area, and you are one of the chief commanders in charge of defending the base from zombie infestation/attacks. The scientists in the colony are close to discovering a cure for the zombie plague, and need your help. In order to make the cure, they need some rare ingredients that cannot be found nearby. You are in charge of venturing out to find these ingredients and return them to the scientists before time runs out, and the colony is taken over by the zombies....   
    # The main characters involved in this game would be the main hero, whom the user will play as and control. Other characters in the game would include the other common non-playable characters (NPCs) who you can interact with in the military base. Enemies involved will also be zombies, some common and other boss enemies who are abnormally strong and will require more damage to kill.           
@@ -10,7 +10,7 @@
  * Targeted Market
    # The targeted market for this game would be people who play PC games and enjoy RPG or FPS games.  And of course, anyone who enjoys killing zombies.
         
-<h2> 2. Features 
+<h2> 2. Features  </h2>
  * Functional Features
     # Users will be able to save and reload game files.
     # As this game will be primarily one-player, there will not be a need to have an online score board. There may be a local high score list implemented on each machine. At a later stage in the project, we may also implement an achievement system where the player is rewarded once he/she completes a certain task or event.  
@@ -20,19 +20,19 @@
  * Non-functional
     # Security will not be an issue in our game.  The game will not be overly complicated, so performance is not a main concern either. Security will need to be addressed only in the event we choose to add online capabilities. 
 
-<h2> 3. Team Organization 
+<h2> 3. Team Organization  </h2>
  * Team members are Alix Frombach, Michael Grimes and Adam Gwin.
 
  * Responsibilities of each team member will be decided based on the specific part of the project being implemented or designed. Animation, design, coding and testing are possible examples of responsibilities.
 
  * The three members of the team are all co-leaders in this project. No one team member has more responsibility than the others.
     
-<h2> 4. Communication Policies 
+<h2> 4. Communication Policies  </h2>
  * Formal methods of communication within our team of 3 members will include individual meetings with other team members, as well as weekly or bi-weekly progress meetings to monitor progress. Informal communication can include phone calls or emails. Google Wave can also be an option when communicating with team members.
        
  * Formal and informal methods of communication within a larger team would be mostly the same.  
     
-<h2> 5. Resources 
+<h2> 5. Resources  </h2>
  * Image editing tools and online tutorials will be used as tools to help develop the final product.
 
  * Game Maker 8.0 Professional will be the game engine used for this project.
@@ -41,19 +41,19 @@
        
  * All aspects of the game development will be done on personal computers owned by the individual team members running Windows 7.
     
-<h2> 6. Project Plan and Schedule 
+<h2> 6. Project Plan and Schedule  </h2>
  * The first milestone will be the completion of the first iteration. The first iteration will be the the creation of the character, as well as the military base, which will include the various NPCs. The second iteration will include an outside room, which will have random enemies scattered throughout and you will also be able to shoot the enemies. All other iterations will be determined at a later date. 
        
  * Deadlines for the project include a basic demonstration halfway through the semester, and the final deadline will be at the end of the semester. These are the dates that the project deliverables will be presented.
     
-<h2> 7. Risk Management Plan 
+<h2> 7. Risk Management Plan  </h2>
  * All risks will be documented using a 10 pt severity scale, where higher numbers mean higher risk. More severe risks will be assessed first, and will be dealt with accordingly. If the risk presents a large problem to the project, the risk will be mitigated. 
        
  * As I said before, risks will be assessed on a 10 pt scale.
        
  * A risk plan will be made depending on the level of severity of the risk. Risks can be mitigated, transferred, accepted or avoided.
     
-<h2> 8. Tracking and Quality Measurement Plan 
+<h2> 8. Tracking and Quality Measurement Plan  </h2>
  * Team members will evaluate others work upon completion of a section of the project.
        
  * Weekly or bi-weekly deadlines will be presented to each team member, and the deadlines will be discussed at meetings.
