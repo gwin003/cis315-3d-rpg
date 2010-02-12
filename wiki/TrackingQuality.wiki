@@ -1,0 +1,6 @@
+
+
+= 8. Tracking and Quality Measurement Plan =
+ * Team members will evaluate others work upon completion of a section of the project.
+       
+ * Weekly or bi-weekly deadlines will be presented to each team member, and the deadlines will be discussed at meetings.
