@@ -53,7 +53,8 @@
  * All risks will be documented using 4 criteria: Analysis, Probability, Seriousness and Predictability. Each analysis will be judged on a 100 point scale (the higher the number, the higher the risk). Probability will be judged on a 1-5 point scale, and will be the probability of the risk actually happening. Seriousness of the risk describes the implications that the risk would jeopardize the project, and will be judged on a 1-5 point scale. Predictability describes how well the project team would be able to predict the risk happening right before it happens, and is also on a 1-5 point scale.
 
 || *Risks* || ||
-|| Game Maker does not have the functionality we need. || A needed or desired function for our game is not one that is supported my Game Maker. <u>How to Avoid:</u> Check the available functions within Game Maker. If the function is not directly supported, search for a Game Maker extension that provides the desired function. <u>Minimize the risk:</u> Do not try to implement anything too detailed, or drop the function altogether. <u>Analysis:</u> 50 <u>Probability:</u> 3 <u>Seriousness:</u> 2 <u>Predictability: 4</u> ||
+|| Game Maker does not have the functionality we need. || A needed or desired function for our game is not one that is supported my Game Maker. <u>How to Avoid:</u> Check the available functions within Game Maker. If the function is not directly supported, search for a Game Maker extension that provides the desired function. <u>Minimize the risk:</u> Do not try to implement anything too detailed, or drop the function altogether. ||
+|| || <u>Analysis:</u> 24 <u>Probability:</u> 3 <u>Seriousness:</u> 2 <u>Predictability: 4</u> ||
        
 
     
