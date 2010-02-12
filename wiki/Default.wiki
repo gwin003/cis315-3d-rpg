@@ -51,7 +51,6 @@
     
 <h2> 7. Risk Management Plan  </h2>
  * All risks will be documented using 4 criteria: Analysis, Probability, Seriousness and Predictability. Each analysis will be judged on a 100 point scale (the higher the number, the higher the risk). Probability will be judged on a 1-5 point scale, and will be the probability of the risk actually happening. Seriousness of the risk describes the implications that the risk would jeopardize the project, and will be judged on a 1-5 point scale. Predictability describes how well the project team would be able to predict the risk happening right before it happens, and is also on a 1-5 point scale.
-
 || *Risks* || ||
 || Group member gets sick || A team member becomes ill with a sickness more serious than a simple cold. <br><u>How to avoid:</u> As a group, not much.  Sicknesses happen. <br><u> Minimize the risk: </u> Have team member responsibilities overlap.  That way, if a member becomes too ill to work, there won’t be a complete section of the project that goes unworked on.||
 || || <u>Analysis:</u> 16 <u>Probability:</u> 2 <u>Seriousness:</u> 2 <u>Predictability: </u>4 ||
