@@ -1,17 +1,9 @@
  * [Default Project Proposal]
-
   * [Default#1._Problem_Definition Problem Definition]
-
   * [Default#2._Features Features]
-
   * [Default#3._Team_Organization Team Organization]
-
   * [Default#4._Communication_Policies Communication Policies]
-
   * [Default#5._Resources Resources]
-
   * [Default#6._Project_Plan_and_Schedule Project Plan and Schedule]
-
   * [Default#7._Risk_Management_Plan Risk Management Plan]
-
   * [Default#8._Tracking_and_Quality_Measurement_Plan Tracking and Quality Measurement Plan]
