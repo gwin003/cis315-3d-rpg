@@ -15,7 +15,11 @@
     # Users will be able to save and reload game files.
     # As this game will be primarily one-player, there will not be a need to have an online score board. There may be a local high score list implemented on each machine. At a later stage in the project, we may also implement an achievement system where the player is rewarded once he/she completes a certain task or event.  
     # AI will be use a very basic structure. Enemy characters will move towards the hero at all times and will attack once the hero and the zombies collide. Some zombies will be laying siege to the military base, where defenders will be shooting at the zombies. 
-    # At this time the game will not be developed to be playable online. Although if it seems that time is not restrictive, a multiplayer/online mode may be incorporated in the final game. The game will be designed in a top-down 2D perspective using game maker functions.
+    # At this time the game will not be developed to be playable online. Although if it seems that time is not restrictive, a multiplayer/online mode may be incorporated in the final game. 
+    # The game will be designed in a top-down 2D perspective using game maker functions. If time permits, the game may be implemented using a first person view in a 3D world.
+    # The main character will have a collection of weapons to use, and will be able to choose which weapon to use using an assigned key to choose the weapon. If time permits, we may implement an entire inventory system that would include all possible items.
+    # Seeing as this is an RPG game, the game will allow the hero character’s attributes to be upgraded periodically. What attributes are upgraded will be up to the user playing the game.
+
 
  * Non-functional
     # Security will not be an issue in our game.  The game will not be overly complicated, so performance is not a main concern either. Security will need to be addressed only in the event we choose to add online capabilities. 
