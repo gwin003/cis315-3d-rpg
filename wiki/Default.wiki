@@ -50,11 +50,12 @@
  * Deadlines for the project include a basic demonstration halfway through the semester, and the final deadline will be at the end of the semester. These are the dates that the project deliverables will be presented.
     
 <h2> 7. Risk Management Plan  </h2>
- * All risks will be documented using a 10 pt severity scale, where higher numbers mean higher risk. More severe risks will be assessed first, and will be dealt with accordingly. If the risk presents a large problem to the project, the risk will be mitigated. 
+ * All risks will be documented using 4 criteria: Analysis, Probability, Seriousness and Predictability. Each analysis will be judged on a 100 point scale (the higher the number, the higher the risk). Probability will be judged on a 1-5 point scale, and will be the probability of the risk actually happening. Seriousness of the risk describes the implications that the risk would jeopardize the project, and will be judged on a 1-5 point scale. Predictability describes how well the project team would be able to predict the risk happening right before it happens, and is also on a 1-5 point scale.
+
+|| *Risks* || *Analyses* || *Seriousness* || *Predictability* ||
+|| Game Maker does not have the functionality we need. || 50 || 3 || 2 || 4 ||
        
- * As I said before, risks will be assessed on a 10 pt scale.
-       
- * A risk plan will be made depending on the level of severity of the risk. Risks can be mitigated, transferred, accepted or avoided.
+
     
 <h2> 8. Tracking and Quality Measurement Plan  </h2>
  * Team members will evaluate others work upon completion of a section of the project.
