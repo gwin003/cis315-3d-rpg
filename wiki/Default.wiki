@@ -65,6 +65,9 @@
 || Too ambitious requirements. || The original requirements developed by the project team are too ambitious for the amount of time given to complete the project.<br><u>How to avoid:</u> Do not make the requirements too in depth. Only plan to do what the team requires. Anything else can be an optional requirement, and will be implemented if time permits.<br><u>Minimize the Risk:</u> Discuss the requirements with the team. Keep the requirements that the game depends on to function. ||
 || || <u>Analysis:</u> 12 <u>Probability:</u> 2 <u>Seriousness:</u> 2 <u>Predictability: </u>3 ||
     
+
+
+
 <h2> 8. Tracking and Quality Measurement Plan  </h2>
  * Team members will evaluate others work upon completion of a section of the project.
        
