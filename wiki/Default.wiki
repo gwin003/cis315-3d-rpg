@@ -55,7 +55,6 @@
 || *Risks* || ||
 || Game Maker does not have the functionality we need. || A needed or desired function for our game is not one that is supported my Game Maker. <br><u>How to Avoid:</u> Check the available functions within Game Maker. If the function is not directly supported, search for a Game Maker extension that provides the desired function. <br><u>Minimize the risk:</u> Do not try to implement anything too detailed, or drop the function altogether. ||
 || || <u>Analysis:</u> 24 <u>Probability:</u> 3 <u>Seriousness:</u> 2 <u>Predictability: 4</u> ||
-
 || 3D implementation is too difficult. || When attempting to implement 3D functionality, it proves to be too difficult for the project team. <br><u>How to Avoid:</u> Do not implement the game in 3D. The game will be developed in a top down view first, so it could be left as so. If another view is requested, an isometric view could be attempted instead. <br><u>Minimize the risk:</u> Keep the game in 2D. The 3 dimensional view is not required. ||
 || || <u>Analysis:</u> 12 <u>Probability:</u> 1 <u>Seriousness:</u> 1 <u>Predictability: 3</u> ||       
 
