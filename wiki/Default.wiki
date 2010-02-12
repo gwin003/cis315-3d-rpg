@@ -54,9 +54,9 @@
 
 || *Risks* || *Analyses* || *Probability* || *Seriousness* || *Predictability* ||
 || Game Maker does not have the functionality we need. || A needed or desired function for our game is not one that is supported my Game Maker.
-	How to Avoid: Check the available functions within Game Maker. If the function is not directly supported, search for a Game Maker extension that provides the desired function.
-	<u>Minimize the risk:</u> Do not try to implement anything too detailed, or drop the function
-altogether.
+<u>How to Avoid:</u> Check the available functions within Game Maker. If the function is not directly supported, search for a Game Maker extension that provides the desired function.
+<u>Minimize the risk:</u> Do not try to implement anything too detailed, or drop the function
+altogether. ||
 || || 50 || 3 || 2 || 4 ||
        
 
