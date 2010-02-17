@@ -1,4 +1,3 @@
-
 [TableOfContents Table of Contents]
  * [ProjectProposal Project Proposal]
   * [ProblemDefinition Problem Definition]
@@ -9,5 +8,4 @@
   * [ProjectPlan Project Plan and Schedule]
   * [RiskManagement Risk Management Plan]
   * [TrackingQuality Tracking and Quality Measurement Plan]
-
  * [SoftwareRequirements Requirements Documentation]
