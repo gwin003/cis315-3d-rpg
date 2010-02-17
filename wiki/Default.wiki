@@ -5,7 +5,6 @@
    # The world has been taken over by a plague of zombies. You are stationed at a military base in northern Texas. The colony set up there is a group of the last known survivors in the area, and you are one of the chief commanders in charge of defending the base from zombie infestation/attacks. The scientists in the colony are close to discovering a cure for the zombie plague, and need your help. In order to make the cure, they need some rare ingredients that cannot be found nearby. You are in charge of venturing out to find these ingredients and return them to the scientists before time runs out, and the colony is taken over by the zombies....   
    # The main characters involved in this game would be the main hero, whom the user will play as and control. Other characters in the game would include the other common non-playable characters (NPCs) who you can interact with in the military base. Enemies involved will also be zombies, some common and other boss enemies who are abnormally strong and will require more damage to kill.           
    # As defined in part a, success will be achieved by defeating all the boss enemies and acquiring the rare ingredients that the scientists need to make the cure for the virus.
-
  * Targeted Market
    # The targeted market for this game would be people who play PC games and enjoy RPG or FPS games.  And of course, anyone who enjoys killing zombies.
         
@@ -18,7 +17,6 @@
     # The game will be designed in a top-down 2D perspective using game maker functions. If time permits, the game may be implemented using a first person view in a 3D world.
     # The main character will have a collection of weapons to use, and will be able to choose which weapon to use using an assigned key to choose the weapon. If time permits, we may implement an entire inventory system that would include all possible items. Weapons will be able to gain increases to stats such as damage, accuracy, range, and reload speed by purchasing upgrades for specific weapons from an npc.  The user will be able to choose the upgrades in the order they choose.
     # Seeing as this is an RPG game, the game will allow the hero character’s attributes to be upgraded periodically. What attributes are upgraded will be up to the user playing the game.
-
  * Non-functional
     # Security will not be an issue in our game.  The game will not be overly complicated, so performance is not a main concern either. Security will need to be addressed only in the event we choose to add online capabilities. 
     # Sounds and graphics will be made/recorded by us or downloaded from the internet. The sounds and graphics must represent the game play atmosphere.
