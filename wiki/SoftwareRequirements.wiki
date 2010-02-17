@@ -45,7 +45,7 @@ There are no extenuating assumptions or dependencies for the project.
 || Precondition: || A game has already been saved to a file. ||
 || Post-condition: || The game has been loaded from a file, and is currently being played. ||
 || Normal Sequence: ||   The user selects the load option from the menu. <br> The system opens a dialog window for the user to choose a file to load. <br> The user makes the necessary choices. <br> The System loads the game from the file. ||
-|| Exceptions: || <u>Condition:</u>  No saved file already exists. <br> <u>Action:</u> The user clicks on cancel. <br> <u>Ending:</u> The use case aborts. ||
+|| Exceptions: || Condition:  No saved file already exists. <br> Action: The user clicks on cancel. <br> Ending: The use case aborts. ||
 ===3.1.3 Functional Requirements===
     If the user desires to save a file, the system should save the current state of the game. If the user wants to load a game, the system should load a previously saved game state.
 
