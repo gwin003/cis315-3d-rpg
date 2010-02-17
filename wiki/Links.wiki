@@ -1,4 +1,4 @@
-[TableOfContents Table of Contents]
+ * [TableOfContents Table of Contents]
  * [ProjectProposal Project Proposal]
   * [ProblemDefinition Problem Definition]
   * [Features]
