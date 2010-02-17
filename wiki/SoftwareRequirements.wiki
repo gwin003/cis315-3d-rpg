@@ -1,0 +1,90 @@
+#summary Software requirements for the project
+
+= 1.	Introduction =
+== 1.1	Purpose ==
+This document describes the requirements for the <Project Name>
+== 1.2	Document Conventions ==
+Any references to sections within this document will be placed in parenthesis, such as (4.1) would tell you to look at section 4.1 for further information.
+
+The glossary at the end of the document will define any uncommon words or phrases that were used.
+== 1.3	Intended Audience and Reading Suggestions ==
+The document is meant for the software project group and also for the client to
+specify what will be implemented in the Triangulation Games software..
+== 1.4	Project Scope ==
+<Project Name> is a software that provides entertainment value for anyone that isn’t sensitive to gratuitous amounts of violence.
+= 2.	Overall Description =
+== 2.1	Product Perspective ==
+<Project Name> is a self-contained product that is meant to develop the software engineering skills of the team members.  The story is a creation of the game designers.
+== 2.2	Product Features ==
+The game is primarily going to be a single-player, offline game with a local high score list.  An achievement system to reward players for accomplishing a task will also be needed.  The user will also be able to upgrade their character’s abilities as well as upgrade the various weapons they will encounter during the game.  Because of this, there must be the ability to save and reload a game.
+
+The perspective on the game will be 2D and the camera will come from a top-down view.  The AI will be very basic as the enemies are zombies, but the “boss” zombies will be smarter.  The user will be presented with a simple interface to display pertinent game information (4.1).
+== 2.3	User Classes and Characteristics ==
+<Project Name> will have one main user class, that being the player.  Members of this user class will vary greatly, but will possess a few common traits.  A member will be familiar with basic keyboard and mouse mechanics and will likely have experience with other games that run in a similar manner.
+== 2.4	Operating Environment ==
+The game will be guaranteed to work in the Windows environment, and specifically tested on Windows XP and Windows 7.  It will run as a standalone executable file and should not interfere with any existing systems.  The game will require the use of a keyboard and mouse to operate.
+== 2.5	Design and Implementation Constraints ==
+The game will be created using the Game Maker 8.0 software, so design and implementation will be limited by what Game Maker, and any extension libraries, allow us to do.  The utility of the software will be expanded slightly because we’ll be using the Pro edition of Game Maker, which will allow extensive use of the proprietary Game Maker Language.
+== 2.6	User Documentation ==
+A user manual that describes the story and game mechanics will be provided so that the player can learn the controls of the game.  A simpler version of the user manual will be available in the actual game for a quick reference.
+== 2.7	Assumptions and Dependencies ==
+<List any assumed factors (as opposed to known facts) that could affect the requirements stated in the SRS. These could include third-party or commercial components that you plan to use, issues around the development or operating environment, or constraints. The project could be affected if these assumptions are incorrect, are not shared, or change. Also identify any dependencies the project has on external factors, such as software components that you intend to reuse from another project, unless they are already documented elsewhere (for example, in the vision and scope document or the project plan).>
+There are no extenuating assumptions or dependencies for the project.
+= 3.	System Features =
+<This template illustrates organizing the functional requirements for the product by system features, the major services provided by the product. You may prefer to organize this section by use case, mode of operation, user class, object class, functional hierarchy, or combinations of these, whatever makes the most logical sense for your product.>
+== 3.1	System Feature 1 ==
+<Don’t really say “System Feature 1.” State the feature name in just a few words.>
+=== 3.1.1 Description and Priority ===
+	<Provide a short description of the feature and indicate whether it is of High, Medium, or Low priority. You could also include specific priority component ratings, such as benefit, penalty, cost, and risk (each rated on a relative scale from a low of 1 to a high of 9).>
+=== 3.1.2 Stimulus/Response Sequences ===
+	<List the sequences of user actions and system responses that stimulate the behavior defined for this feature. These will correspond to the dialog elements associated with use cases.>
+=== 3.1.3 Functional Requirements ===
+	<Itemize the detailed functional requirements associated with this feature. These are the software capabilities that must be present in order for the user to carry out the services provided by the feature, or to execute the use case. Include how the product should respond to anticipated error conditions or invalid inputs. Requirements should be concise, complete, unambiguous, verifiable, and necessary. Use “TBD” as a placeholder to indicate when necessary information is not yet available.>
+	
+	<Each requirement should be uniquely identified with a sequence number or a meaningful tag of some kind.>
+	
+REQ-1:	
+REQ-2:	
+== 3.2	System Feature 2 (and so on) ==
+= 4.	External Interface Requirements =
+== 4.1	User Interfaces ==
+The User Interface will consist of the main game window that will show the main character and any NPCs, enemies, obstacles, scenery, background images, and items that are within the view distance of the character.  Any combination of these objects may be displayed at any time given the number of situations a player could get his/her character into.
+ 
+Along with the main game screen will be a number of other static displays to provide information to the user.  These displays include a status bar with information on the amount of health, money, ammo, and a player has, a miniature map that will show the players current location in relation to the obstacles surrounding him/her, a collapsible inventory/character info screen that will display what items the player currently possesses as well as what he/she has equipped, and a menu that contains options such as sound settings, and an exit option.
+ 
+The last thing displayed on the game window will be a crosshair (different for different weapons) to show the player where his/her character is currently aiming.  The crosshair will follow the player’s mouse movements to allow for the most accurate aiming.
+
+== 4.2	Hardware Interfaces ==
+The user will control his/her character using a keyboard and mouse.  The keyboard will be responsible for movement (W, A, S, and D for up, left, down, and right respectively), selecting specific weapons (number keys), interacting with NPCs (E), reloading his/her weapon (R), accessing the inventory/equipment screen (I), using a specialty item, such as grenades, mines, etc. (Q), using a health pack (F), and accessing the menu (ESC).
+ 
+The mouse will be used for aiming the characters weapon (mouse position), shooting (left-click), cycling through equipped weapons (scrolling the mouse-wheel up and down), and a possible activating/deactivating aiming down the sights of the weapon may be added (this would increase accuracy and damage, but reduce movement and defense) (right-click).
+== 4.3	Software Interfaces ==
+The only software interface required to use the software is a Windows Operating System
+== 4.4	Communications Interfaces ==
+A communication Interface will only need to be setup in the event that we integrate an online scoreboard or a multiplayer game mode.  In the event that these features are implemented, the user will be required to use the Internet Explorer web browser to access the game/scoreboard.  The software will need to be able to communicate with a server that will keep track of the players items, status (health, ammo, etc.), and location, as well as the high score players.
+= 5.	Other Nonfunctional Requirements =
+== 5.1	Performance Requirements ==
+=== 5.1.1 Game Board Update ===
+Within one second of firing a torpedo, a player’s offensive board and his opponent’s defensive board should be updated with the status of the shot (hit or miss) according to functional requirement 3.6.3.
+
+=== 5.1.2 ===
+After a multiplayer game is started, the matchmaking server shall update its open game list within 5 seconds. 
+
+== 5.2	Security Requirements ==
+During a network game, only information concerning the coordinates of fired shots shall be sent over the network.  The system shall not have the ability to execute arbitrary commands based on data received via the network.  Potential security risks are eliminated by ensuring that the system itself will not allow for information received over the network to alter any part of the remote system except for the game itself.
+== 5.3	Software Quality Attributes ==
+=== 5.3.1 Portability ===
+Portability is an important factor for Battleship so that the game may be played independent of a particular platform.  The system should support a network game between two players running the game on his own distinct platform.
+
+=== 5.3.2 Usability ===
+Usability is equally important since the software exists solely for entertainment purposes.  A player with basic computer literacy (i.e. keyboarding and mouse skills) should quickly master the game play controls.
+
+ 
+= Appendix A: Glossary =
+NPC	Non-playable character – anyone who appears in the game who cannot be controlled by the player
+
+
+= Appendix B: Analysis Models =
+<Optionally, include any pertinent analysis models, such as data flow diagrams, class diagrams, state-transition diagrams, or entity-relationship diagrams.>
+= Appendix C: Issues List =
+< This is a dynamic list of the open requirements issues that remain to be resolved, including TBDs, pending decisions, information that is needed, conflicts awaiting resolution, and the like.>
