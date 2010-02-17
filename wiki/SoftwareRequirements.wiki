@@ -30,9 +30,6 @@ A user manual that describes the story and game mechanics will be provided so th
 == 2.7	Assumptions and Dependencies ==
 There are no extenuating assumptions or dependencies for the project.
 
-
-
-
 = 3.	System Features =
 ==3.1 User will be able to save and load games ==
     
@@ -44,7 +41,7 @@ There are no extenuating assumptions or dependencies for the project.
 || Description: || The system must have the capability to save the current state of the game being played. ||
 || Precondition: || A game is currently being played. ||
 || Postcondition: || The current game has been saved in a file. ||
-|| Normal Sequence: || The user selects the save option from the menu. <br>The system opens a dialog window where the user can specify the game's name and the location where it can be saved to. <br> The user makes the necessary choices. <br> The system saves the game in a file.   ||
+|| Normal Sequence: || The user selects the save option from the menu. <br>The system opens a dialog window where the user can specify the game's <br>name and the location where it can be saved to. <br> The user makes the necessary choices. <br> The system saves the game in a file.   ||
 
 
 || UC 02 || The user loads a game ||
@@ -56,7 +53,7 @@ There are no extenuating assumptions or dependencies for the project.
 
 ===3.1.3 Functional Requirements===
     If the user desires to save a file, the system should save the current state of the game. If the user wants to load a game, the system should load a previously saved game state.
-
+----
 ==3.2 Simple AI will be implemented for the enemies==
 ===3.2.1 Description and Priority===
     The system will have a very basic AI system to control the movement of the enemies. This feature has a medium-high priority, as the enemies need to be able to attack the player, or the game would be very boring and easy.
@@ -69,7 +66,7 @@ There are no extenuating assumptions or dependencies for the project.
 
 ===3.2.3 Functional Requirements===
     Once created, the enemies will react to the player and the surroundings based on a specified methodology of actions. All movement of the enemies must use some form of specified AI.
-
+----
 ==3.3 Online Capabilities==
 ===3.3.1 Description and Priority===
     If time permits, the system may implement an online mode the user will be able to play. <br> This feature has a low priority, because it is only an optional feature. The game will be fully playable without the online mode.
@@ -82,7 +79,7 @@ There are no extenuating assumptions or dependencies for the project.
 
 ===3.3.3 Functional Requirements===
     Once the user requests to play online, the system should easily connect to the host and establish a secure connection.
-
+----
 ==3.4 2D Game Interface==
 ===3.4.1 Description and Priority===
     The game will use a basic top-down, 2 dimensional view to allow the user to interact with the world around him. Menus and other option panes will also be in a basic 2D view. <br> This feature has a high priority, because it will display all game information to the user and allow the user to interact with the game.
@@ -95,7 +92,7 @@ There are no extenuating assumptions or dependencies for the project.
 
 ===3.4.3 Functional Requirements===
     Once the user starts the game, the system must display the 2D interface.
-
+----
 ==3.5 The game ends on a predefined condition==
 ===3.5.1 Description and Priority===
     Every game has an ending condition defined in the game definition. When the conditions are met, the game ends, and the system displays the users final score as well as other information about the finished game.<br> This feature has a high priority, otherwise the user will never finish the game and will only be wandering around the world.
@@ -107,7 +104,7 @@ There are no extenuating assumptions or dependencies for the project.
 || Normal Sequence:|| The user is playing a game. <br>The user fulfills the final winning condition for the game. <br> The system displays some winning screen and the users final score. <br> The system returns to the main menu. 
 ===3.5.3 Functional Requirements===
     Once all the quest requirements of the game are met, the game will begin an ending sequence and the game will end.      
-
+----
 = 4.	External Interface Requirements =
 == 4.1	User Interfaces ==
 The User Interface will consist of the main game window that will show the main character and any NPCs, enemies, obstacles, scenery, background images, and items that are within the view distance of the character.  Any combination of these objects may be displayed at any time given the number of situations a player could get his/her character into.
