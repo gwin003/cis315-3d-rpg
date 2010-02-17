@@ -31,29 +31,26 @@ A user manual that describes the story and game mechanics will be provided so th
 There are no extenuating assumptions or dependencies for the project.
 
 = 3.	System Features =
-==3.1 User will be able to save and load games ==
-    
+==3.1 User will be able to save and load games == 
 ===3.1.1 Description and Priority===
     The user will be able to easily save and reload the game whenever desired. <br>This feature is essential for the system as the user will want to stop playing and restart where he/she left off previously, so the priority is high.  
-
 === 3.1.2 Response Sequences ===
 || UC  01 || The User saves a game ||
 || Description: || The system must have the capability to save the current state of the game being played. ||
 || Precondition: || A game is currently being played. ||
 || Postcondition: || The current game has been saved in a file. ||
-|| Normal Sequence: || The user selects the save option from the menu. <br>The system opens a dialog window where the user can specify the game's <br>name and the location where it can be saved to. <br> The user makes the necessary choices. <br> The system saves the game in a file.   ||
-
-
+|| Normal Sequence: || The user selects the save option from the menu. <br>The system opens a dialog window where the user can specify the game's name and the location where it can be saved to. <br> The user makes the necessary choices. <br> The system saves the game in a file.   ||
 || UC 02 || The user loads a game ||
 || Description: || The system must be able to load a game from a file.||
 || Precondition: || A game has already been saved to a file. ||
 || Post-condition: || The game has been loaded from a file, and is currently being played. ||
 || Normal Sequence: ||   The user selects the load option from the menu. <br> The system opens a dialog window for the user to choose a file to load. <br> The user makes the necessary choices. <br> The System loads the game from the file. ||
 || Exceptions: || <u>Condition:</u>  No saved file already exists. <br> <u>Action:</u> The user clicks on cancel. <br> <u>Ending:</u> The use case aborts. ||
-
 ===3.1.3 Functional Requirements===
     If the user desires to save a file, the system should save the current state of the game. If the user wants to load a game, the system should load a previously saved game state.
+
 ----
+
 ==3.2 Simple AI will be implemented for the enemies==
 ===3.2.1 Description and Priority===
     The system will have a very basic AI system to control the movement of the enemies. This feature has a medium-high priority, as the enemies need to be able to attack the player, or the game would be very boring and easy.
@@ -63,10 +60,11 @@ There are no extenuating assumptions or dependencies for the project.
 || Precondition: || The enemy is created. ||
 || Post-condition: ||  The enemy reacts to game conditions. ||
 || Normal Sequence:|| The enemy is created.<br>The enemy moves and attacks according to surroundings and game conditions. ||
-
 ===3.2.3 Functional Requirements===
     Once created, the enemies will react to the player and the surroundings based on a specified methodology of actions. All movement of the enemies must use some form of specified AI.
+
 ----
+
 ==3.3 Online Capabilities==
 ===3.3.1 Description and Priority===
     If time permits, the system may implement an online mode the user will be able to play. <br> This feature has a low priority, because it is only an optional feature. The game will be fully playable without the online mode.
@@ -76,10 +74,11 @@ There are no extenuating assumptions or dependencies for the project.
 || Precondition: || The user chooses to play online. ||
 || Post-condition: || The user is playing/has played online with other users over a network. ||
 || Normal Sequence: || The user selects the online option from the menu screen. <br> The system opens up a dialog box asking the user for the host IP address.<br> The system establishes a connection with the host server and the game begins.|| 
-
 ===3.3.3 Functional Requirements===
     Once the user requests to play online, the system should easily connect to the host and establish a secure connection.
+
 ----
+
 ==3.4 2D Game Interface==
 ===3.4.1 Description and Priority===
     The game will use a basic top-down, 2 dimensional view to allow the user to interact with the world around him. Menus and other option panes will also be in a basic 2D view. <br> This feature has a high priority, because it will display all game information to the user and allow the user to interact with the game.
@@ -89,10 +88,11 @@ There are no extenuating assumptions or dependencies for the project.
 || Precondition: || The user starts the game. ||
 || Post-condition: || The system displays an interface to the user to interact with. ||
 || Normal Sequence: || The user starts the game. <br> The system displays the interface to the user. ||
-
 ===3.4.3 Functional Requirements===
     Once the user starts the game, the system must display the 2D interface.
+
 ----
+
 ==3.5 The game ends on a predefined condition==
 ===3.5.1 Description and Priority===
     Every game has an ending condition defined in the game definition. When the conditions are met, the game ends, and the system displays the users final score as well as other information about the finished game.<br> This feature has a high priority, otherwise the user will never finish the game and will only be wandering around the world.
@@ -103,8 +103,10 @@ There are no extenuating assumptions or dependencies for the project.
 || Post-conditions: || The current game is finished and the user has completed all winning conditions. ||
 || Normal Sequence:|| The user is playing a game. <br>The user fulfills the final winning condition for the game. <br> The system displays some winning screen and the users final score. <br> The system returns to the main menu. 
 ===3.5.3 Functional Requirements===
-    Once all the quest requirements of the game are met, the game will begin an ending sequence and the game will end.      
+    Once all the quest requirements of the game are met, the game will begin an ending sequence and the game will end.  
+    
 ----
+
 = 4.	External Interface Requirements =
 == 4.1	User Interfaces ==
 The User Interface will consist of the main game window that will show the main character and any NPCs, enemies, obstacles, scenery, background images, and items that are within the view distance of the character.  Any combination of these objects may be displayed at any time given the number of situations a player could get his/her character into.
