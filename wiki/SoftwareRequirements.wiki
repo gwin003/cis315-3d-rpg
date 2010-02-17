@@ -53,10 +53,10 @@ UC 02 The user loads a game
     Description: The system must be able to load a game from a file.
     Precondition: A game has already been saved to a file.
     Post-condition: The game has been loaded from a file, and is currently being played.
-    Normal Sequence: The user selects the load option from the menu. 
-                     The system opens a dialog window for the user to choose a file to load.
-                     The user makes the necessary choices.
-                     The System loads the game from the file.
+    Normal Sequence: * The user selects the load option from the menu. 
+                     * The system opens a dialog window for the user to choose a file to load.
+                     * The user makes the necessary choices.
+                     * The System loads the game from the file.
     Exceptions: 1. Condition: No saved file already exists.
                           Action: The user clicks on cancel.
                           Ending: The use case aborts.
