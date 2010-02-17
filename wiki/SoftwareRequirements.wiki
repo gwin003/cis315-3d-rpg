@@ -101,7 +101,7 @@ There are no extenuating assumptions or dependencies for the project.
 || Description: || Once the user completes all quests, the game must end. ||
 || Precondition: || A game is being played. ||
 || Post-conditions: || The current game is finished and the user has completed all winning conditions. ||
-|| Normal Sequence:|| The user is playing a game. <br>The user fulfills the final winning condition for the game. <br> The system displays some winning screen and the users final score. <br> The system returns to the main menu. 
+|| Normal Sequence:|| The user is playing a game. <br>The user fulfills the final winning condition for the game. <br> The system displays some winning screen and the users final score. <br> The system returns to the main menu. ||
 ===3.5.3 Functional Requirements===
     Once all the quest requirements of the game are met, the game will begin an ending sequence and the game will end.  
     
