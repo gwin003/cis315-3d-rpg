@@ -1,4 +1,4 @@
- * [Default Project Proposal]
+ * [ProjectProposal Project Proposal]
   * [ProblemDefinition Problem Definition]
   * [Features]
   * [TeamOrganization Team Organization]
