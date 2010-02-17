@@ -28,7 +28,6 @@ The game will be created using the Game Maker 8.0 software, so design and implem
 == 2.6	User Documentation ==
 A user manual that describes the story and game mechanics will be provided so that the player can learn the controls of the game.  A simpler version of the user manual will be available in the actual game for a quick reference.
 == 2.7	Assumptions and Dependencies ==
-<List any assumed factors (as opposed to known facts) that could affect the requirements stated in the SRS. These could include third-party or commercial components that you plan to use, issues around the development or operating environment, or constraints. The project could be affected if these assumptions are incorrect, are not shared, or change. Also identify any dependencies the project has on external factors, such as software components that you intend to reuse from another project, unless they are already documented elsewhere (for example, in the vision and scope document or the project plan).>
 There are no extenuating assumptions or dependencies for the project.
 = 3.	System Features =
 <This template illustrates organizing the functional requirements for the product by system features, the major services provided by the product. You may prefer to organize this section by use case, mode of operation, user class, object class, functional hierarchy, or combinations of these, whatever makes the most logical sense for your product.>
