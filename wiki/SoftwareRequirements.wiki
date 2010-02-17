@@ -49,20 +49,20 @@ UC  01    The User saves a game
                      The user makes the necessary choices.
                      The system saves the game in a file.   
   
-UC 02 The user loads a game
-    Description: The system must be able to load a game from a file.
-    Precondition: A game has already been saved to a file.
-    Post-condition: The game has been loaded from a file, and is currently being played.
-    Normal Sequence: * The user selects the load option from the menu. 
-                     * The system opens a dialog window for the user to choose a file to load.
-                     * The user makes the necessary choices.
-                     * The System loads the game from the file.
-    Exceptions: 1. Condition: No saved file already exists.
-                          Action: The user clicks on cancel.
-                          Ending: The use case aborts.
+|| UC 02 || The user loads a game ||
+|| Description: || The system must be able to load a game from a file.||
+|| Precondition: || A game has already been saved to a file. ||
+|| Post-condition: || The game has been loaded from a file, and is currently being played. ||
+|| Normal Sequence: ||  # The user selects the load option from the menu. 
+                        # The system opens a dialog window for the user to choose a file to load.
+                        # The user makes the necessary choices.
+                        # The System loads the game from the file.
+|| Exceptions: || <u>Condition:</u> * No saved file already exists.
+                                    * Action: The user clicks on cancel.
+                                    * Ending: The use case aborts.
 3.1.3 Functional Requirements
-    Game.Save        The system saves the game in a file.
-    Game.Load        The system loads the game from a file.
+    || Game.Save ||       The system saves the game in a file. ||
+    || Game.Load ||       The system loads the game from a file. ||
 
 3.2 Simple AI will be implemented for the enemies
 3.2.1 Description and Priority
