@@ -24,7 +24,6 @@
     # Sounds and graphics will be made/recorded by us or downloaded from the internet. The sounds and graphics must represent the game play atmosphere.
     # The user will be able to choose the look of their character using a predefined set of heads, hairstyles/headwear, and bodies.  If time permits more options may be added including specific pieces of clothing such as shirts and pants.
 
-
 <h2> 3. Team Organization  </h2>
  * Team members are Alix Frombach, Michael Grimes and Adam Gwin.
 
