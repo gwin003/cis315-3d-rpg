@@ -40,23 +40,17 @@ There are no extenuating assumptions or dependencies for the project.
     The user will be able to easily save and reload the game whenever desired. This feature is essential for the system as the user will want to stop playing and restart where he/she left off previously.  
 
 === 3.1.2 Response Sequences ===
-UC  01    The User saves a game
-    Description: The system must have the capability to save the current state of the game being played.
-    Precondition: A game is currently being played.
-    Postcondition: The current game has been saved in a file.
-    Normal Sequence: The user selects the save option from the menu.
-                     The system opens a dialog window where the user can specify the game's name and the location where it can be saved to.
-                     The user makes the necessary choices.
-                     The system saves the game in a file.   
+|| UC  01 || The User saves a game ||
+|| Description: || The system must have the capability to save the current state of the game being played. ||
+|| Precondition: || A game is currently being played. ||
+|| Postcondition: || The current game has been saved in a file. ||
+|| Normal Sequence: || The user selects the save option from the menu. <br>The system opens a dialog window where the user can specify the game's name and the location where it can be saved to. <br> The user makes the necessary choices. <br> The system saves the game in a file.   ||
   
 || UC 02 || The user loads a game ||
 || Description: || The system must be able to load a game from a file.||
 || Precondition: || A game has already been saved to a file. ||
 || Post-condition: || The game has been loaded from a file, and is currently being played. ||
-|| Normal Sequence: ||  # The user selects the load option from the menu. 
-                        # The system opens a dialog window for the user to choose a file to load.
-                        # The user makes the necessary choices.
-                        # The System loads the game from the file.
+|| Normal Sequence: ||   The user selects the load option from the menu. <br> The system opens a dialog window for the user to choose a file to load. <br> The user makes the necessary choices. <br> The System loads the game from the file. ||
 || Exceptions: || <u>Condition:</u> * No saved file already exists.
                                     * Action: The user clicks on cancel.
                                     * Ending: The use case aborts.
