@@ -1,6 +1,6 @@
-
 = 4. Communication Policies =
  * Formal methods of communication within our team of 3 members will include individual meetings with other team members, as well as weekly or bi-weekly progress meetings to monitor progress. Informal communication can include phone calls or emails. 
+
  * Google Wave can also be an option when communicating with team members. Also this wiki page can be used as a form of communication.
        
  * Formal and informal methods of communication within a larger team would be mostly the same.
