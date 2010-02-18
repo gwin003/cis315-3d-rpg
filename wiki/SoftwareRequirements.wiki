@@ -142,14 +142,21 @@ Usability is highly important.  This is an entertainment-based software and we w
 
  
 = Appendix A: Glossary =
-NPC	<t>Non-playable character – anyone who appears in the game who cannot be controlled by the player
+NPC
+ Non-playable character – anyone who appears in the game who cannot be controlled by the player
 
-Psychomachia  <t>Battle for man's soul
+Psychomachia
+ Battle for man's soul
 
-Ingredients  <t>Items found by defeating boss characters that the scientists need to combine to create the cure
+Ingredients
+ Items found by defeating boss characters that the scientists need to combine to create the cure
 
-Minimap  <t>A miniature representation of the area that will show nearby enemies
+Minimap
+ A miniature representation of the area that will show nearby enemies
 
 
 = Appendix B: Analysis Models =
 http://i781.photobucket.com/albums/yy95/psychomachia_awesome/HUDConcept.png
+Figure 1.1 Concept art for user interface
+
+Figure 1.1 shows the early design for what the user interface should look like.  It should display the player's health, the current main and side weapons the player is carrying as well as the ammo, and have a minimap to better see the surrounding area.
