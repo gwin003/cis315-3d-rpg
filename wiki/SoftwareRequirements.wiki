@@ -152,4 +152,4 @@ Minimap  A miniature representation of the area that will show nearby enemies
 
 
 = Appendix B: Analysis Models =
-http://s781.photobucket.com/albums/yy95/psychomachia_awesome/?action=view&current=HUDConcept.png
+http://i781.photobucket.com/albums/yy95/psychomachia_awesome/HUDConcept.png
