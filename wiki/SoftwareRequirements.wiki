@@ -157,6 +157,7 @@ Minimap
 
 = Appendix B: Analysis Models =
 http://i781.photobucket.com/albums/yy95/psychomachia_awesome/HUDConcept.png
+
 Figure 1.1 Concept art for user interface
 
 Figure 1.1 shows the early design for what the user interface should look like.  It should display the player's health, the current main and side weapons the player is carrying as well as the ammo, and have a minimap to better see the surrounding area.
