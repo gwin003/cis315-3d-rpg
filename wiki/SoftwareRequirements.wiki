@@ -2,25 +2,25 @@
 
 = 1.	Introduction =
 == 1.1	Purpose ==
-This document describes the requirements for the <Project Name>
+This document describes the requirements for the game, _Psychomachia_.
 == 1.2	Document Conventions ==
 Any references to sections within this document will be placed in parenthesis, such as (4.1) would tell you to look at section 4.1 for further information.
 
 The glossary at the end of the document will define any uncommon words or phrases that were used.
 == 1.3	Intended Audience and Reading Suggestions ==
 The document is meant for the software project group and also for the client to
-specify what will be implemented in the Triangulation Games software..
+specify what will be implemented in the _Psychomachia_ game software.
 == 1.4	Project Scope ==
-<Project Name> is a software that provides entertainment value for anyone that isn’t sensitive to gratuitous amounts of violence.
+_Psychomachia_ is a software that provides entertainment value for anyone that isn’t sensitive to gratuitous amounts of violence.
 = 2.	Overall Description =
 == 2.1	Product Perspective ==
-<Project Name> is a self-contained product that is meant to develop the software engineering skills of the team members.  The story is a creation of the game designers.
+_Psychomachia_ is a self-contained product that is meant to develop the software engineering skills of the team members.  The story is a creation of the game designers.
 == 2.2	Product Features ==
 The game is primarily going to be a single-player, offline game with a local high score list.  An achievement system to reward players for accomplishing a task will also be needed.  The user will also be able to upgrade their character’s abilities as well as upgrade the various weapons they will encounter during the game.  Because of this, there must be the ability to save and reload a game.
 
 The perspective on the game will be 2D and the camera will come from a top-down view.  The AI will be very basic as the enemies are zombies, but the “boss” zombies will be smarter.  The user will be presented with a simple interface to display pertinent game information (4.1).
 == 2.3	User Classes and Characteristics ==
-<Project Name> will have one main user class, that being the player.  Members of this user class will vary greatly, but will possess a few common traits.  A member will be familiar with basic keyboard and mouse mechanics and will likely have experience with other games that run in a similar manner.
+_Psychomachia_ will have one main user class, that being the player.  Members of this user class will vary greatly, but will possess a few common traits.  A member will be familiar with basic keyboard and mouse mechanics and will likely have experience with other games that run in a similar manner.
 == 2.4	Operating Environment ==
 The game will be guaranteed to work in the Windows environment, and specifically tested on Windows XP and Windows 7.  It will run as a standalone executable file and should not interfere with any existing systems.  The game will require the use of a keyboard and mouse to operate.
 == 2.5	Design and Implementation Constraints ==
