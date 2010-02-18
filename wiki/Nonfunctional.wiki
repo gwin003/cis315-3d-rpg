@@ -1,0 +1,15 @@
+= 5.	Other Nonfunctional Requirements =
+== 5.1	Performance Requirements ==
+=== 5.1.1 Game Mechanics ===
+When a zombie is hit with a bullet, the damage should be registered within a half a second.  Also, the ammo indicator should reflect the loss of ammunition within the same time frame.  The collision detection for when a zombie hits a player should react in the same time frame as well.  When a zombie enters the visible view, it should be indicated on the radar.
+
+
+== 5.2	Security Requirements ==
+Security is not a major concern for our game as it is predominately, if not entirely, offline and single player.
+
+== 5.3	Software Quality Attributes ==
+=== 5.3.1 Portability ===
+The Game Maker environment is only viable on the Windows platform.
+
+=== 5.3.2 Usability ===
+Usability is highly important.  This is an entertainment-based software and we want it to be enjoyed by as many people as possible.
