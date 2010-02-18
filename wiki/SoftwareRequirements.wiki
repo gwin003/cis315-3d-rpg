@@ -157,6 +157,9 @@ Usability is highly important.  This is an entertainment-based software and we w
 
  
 = Appendix A: Glossary =
+Game Maker
+ Game Maker (often abbreviated to GM) is a Windows computer program originally developed by Mark Overmars in the Delphi programming language. It is currently developed and published by YoYo Games, a software company which Overmars is a part. Game Maker allows users to easily develop computer games without the requirement of prior computer programming experience, while allowing advanced users to create complex applications with its built-in scripting language. (Wikipedia Game Maker)
+
 NPC
  Non-playable character – anyone who appears in the game who cannot be controlled by the player
 
@@ -168,6 +171,13 @@ Ingredients
 
 Minimap
  A miniature representation of the area that will show nearby enemies
+
+HUD
+ "Heads-Up Display" will show important information such as health, current weapons, ammunition and the minimap
+
+AI
+ Artificial Intelligence
+
 
 
 = Appendix B: Analysis Models =
