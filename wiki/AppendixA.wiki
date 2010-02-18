@@ -1,0 +1,12 @@
+= Appendix A: Glossary =
+NPC
+ Non-playable character – anyone who appears in the game who cannot be controlled by the player
+
+Psychomachia
+ Battle for man's soul
+
+Ingredients
+ Items found by defeating boss characters that the scientists need to combine to create the cure
+
+Minimap
+ A miniature representation of the area that will show nearby enemies
