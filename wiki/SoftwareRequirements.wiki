@@ -123,6 +123,40 @@ There are no extenuating assumptions or dependencies for the project.
     
 ----
 
+==3.7 Multiple Rooms==
+===3.7.1 Description and Priority===
+    The game will feature multiple rooms for the player to explore.  These rooms will differ in the enemies, encounters, pick-ups, and scenery.  Some of the rooms will be dedicated specifically to boss battles, where the ingredients required for game completion will be found. <br> This feature has a high priority because without rooms there would be no game.
+===3.7.2 Response Sequences===
+|| UC 07 || The user enters the game and moves in and between rooms. ||
+|| Description: || The system must hold the information for multiple rooms for the user to explore. ||
+|| Precondition: || The user starts the game. ||
+|| Post-condition: || The system displays the current room and handles the user moving to different rooms. ||
+|| Normal Sequence: || The user starts the game. <br> The system displays the current room to the user. <br> The user interacts with the various enemies, encounters, pick-ups, and scenery in the room. <br> The user moves to a defined room transition point. <br> The system moves the user to the next room. ||
+
+
+
+===3.7.3 Functional Requirements===
+    Once the user starts the game, the system must display the current room.  When the user hits a room transition point, the system must move the user to the next room.
+
+----
+
+==3.8 Multiple Enemies==
+===3.8.1 Description and Priority===
+    The game will feature multiple enemies for the player to interact with.  There will be  multiple enemies, but all of them will have a defined amount of health and strength.  The health will determine how much damage an enemy can take and the strength will determine how much damage the enemy outputs.  Some enemies will have to collide with the player to cause damage whereas others will launch projectiles.  There will also be boss enemies that will have much higher health and damage than the common enemies.  The boss enemies will have to be defeated to collect the ingredients required for game completion. <br> This feature has a high priority because without enemies there would be no challenge to the game as well as no way to gather the ingredients required for game completion.
+===3.8.2 Response Sequences===
+|| UC 08 || The user encounters enemies while playing the game. ||
+|| Description: || The system should have multiple enemies for the user to interact with. ||
+|| Precondition: || The user starts the game and ventures beyond the safety of the initial starting area. ||
+|| Post-condition: || The system displays enemies to the user who try to attack the player and ultimately bring his/her health down to 0. ||
+|| Normal Sequence: || The user starts the game. <br> The user leaves the safe area. <br> The user interacts with the various enemies, deals and receives damage to and from them. ||
+
+
+
+===3.8.3 Functional Requirements===
+    Once the user leaves the safe area, the system must display enemies that are trying to attack the player.  The system needs to keep track of how much damage the enemies have taken and remove them from the room after their health reaches 0.
+
+----
+
 = 4.	External Interface Requirements =
 == 4.1	User Interfaces ==
 The User Interface will consist of the main game window that will show the main character and any NPCs, enemies, obstacles, scenery, background images, and items that are within the view distance of the character.  Any combination of these objects may be displayed at any time given the number of situations a player could get his/her character into.
