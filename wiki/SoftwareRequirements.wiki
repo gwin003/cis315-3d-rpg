@@ -157,6 +157,23 @@ There are no extenuating assumptions or dependencies for the project.
 
 ----
 
+==3.9 Multiple Character Sprites==
+===3.9.1 Description and Priority===
+    The game will feature multiple character sprites corresponding to each of the weapons in the game.  The character will need to look as though he is holding a different weapon matching the selected weapon type.  This will make it easier for the user to identify which weapon he/she is using and also increase the realism of the game.  The character sprite will always face in the direction of the player's mouse and will respond to the player pressing the movement keys by moving in the appropriate direction.  The movement will be animated by combining multiple sprites of the character's feet and legs "moving" to add to the realism of the game. <br> This feature has a high priority because without any player sprites the user wouldn't be able to see where they are moving on the screen.
+===3.9.2 Response Sequences===
+|| UC 09 || The user enters the game and can see his/her character responding to their actions. ||
+|| Description: || The system should have multiple character sprites that represent different user actions on the character. ||
+|| Precondition: || The user starts the game. ||
+|| Post-condition: || The system displays the character sprite and changes the sprite based on their input. ||
+|| Normal Sequence: || The user starts the game. <br> The system draws the character sprite. <br> The user moves around the room by pressing the movement keys. <br> The system draws the animated walking sprites. <br> The user changes his/her weapon. <br> The system changes the character sprite according to the chosen weapon.||
+
+
+
+===3.9.3 Functional Requirements===
+    Once the user starts the game the system should display the character sprite and be able to change the sprite based on the user's specific inputs such as movement and changing weapons.
+
+----
+
 = 4.	External Interface Requirements =
 == 4.1	User Interfaces ==
 The User Interface will consist of the main game window that will show the main character and any NPCs, enemies, obstacles, scenery, background images, and items that are within the view distance of the character.  Any combination of these objects may be displayed at any time given the number of situations a player could get his/her character into.
