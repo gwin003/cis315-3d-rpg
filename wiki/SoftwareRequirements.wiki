@@ -191,6 +191,23 @@ There are no extenuating assumptions or dependencies for the project.
 
 ----
 
+==3.11 Weapon Sounds==
+===3.11.1 Description and Priority===
+    The game will feature different sounds for each of the weapons the player can use.  There will need to be a sound not only for shooting the weapon but also reloading the weapon. <br> This feature has a medium priority because it increases the realism of the game and makes it more interesting for the user..
+===3.11.2 Response Sequences===
+|| UC 11 || The user can shoots or reloads his/her weapon and a sound is played. ||
+|| Description: || The system should play a sound when the user shoots or reloads a weapon. ||
+|| Precondition: || The user has a weapon. ||
+|| Post-condition: || The system plays the sound. ||
+|| Normal Sequence: || The user starts the game. <br> The user shoots a weapon. <br> The system plays a sound. <br> The user reloads a weapon. <br> The system plays a sound.||
+
+
+
+===3.11.3 Functional Requirements===
+    When the user shoots or reloads his/her weapon and the system plays a specific sound for each weapon.
+
+----
+
 = 4.	External Interface Requirements =
 == 4.1	User Interfaces ==
 The User Interface will consist of the main game window that will show the main character and any NPCs, enemies, obstacles, scenery, background images, and items that are within the view distance of the character.  Any combination of these objects may be displayed at any time given the number of situations a player could get his/her character into.
