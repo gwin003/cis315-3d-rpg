@@ -1,0 +1,10 @@
+
+=Event-driven Response Tables=
+
+|| Event || System State || Response ||
+|| User clicks the new game button || System is at the main screen || 1. All appropriate global variables are initialized. <br> 2. HUD is displayed.||
+|| User clicks the load game button || System is at the main screen || 1. Saved game data is loaded and game resumes. <br> 2. HUD is displayed.||
+|| User clicks the save game button || Game is in play. User is at the pause screen. || 1. System saves the current state of the game in an external file. <br> 2. HUD is displayed.||
+|| User clicks the options button || System is at the main menu or pause screen. || The Options page is displayed. ||
+|| User clicks the quit game button || System is at the main menu or pause screen. || The game ends and the window closes. ||
+|| User clicks the resume game button. || Game is in play. User is at the pause screen. || 1.The game returns to the previous room. <br> 2. The game resumes ||
