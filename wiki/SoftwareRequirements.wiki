@@ -186,7 +186,7 @@ There are no extenuating assumptions or dependencies for the project.
 
 
 
-===3.9.3 Functional Requirements===
+===3.10.3 Functional Requirements===
     When the user uses his/her weapon the system needs to keep track of how much ammo is in the weapon.  This will let the user know how many more times they can shoot that weapon before they need to find an ammo pick-up.
 
 ----
