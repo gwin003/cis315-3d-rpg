@@ -1,10 +1,19 @@
-
 =Event-driven Response Tables=
 
 || Event || System State || Response ||
 || User clicks the new game button || System is at the main screen || 1. All appropriate global variables are initialized. <br> 2. HUD is displayed.||
 || User clicks the load game button || System is at the main screen || 1. Saved game data is loaded and game resumes. <br> 2. HUD is displayed.||
 || User clicks the save game button || Game is in play. User is at the pause screen. || 1. System saves the current state of the game in an external file. <br> 2. HUD is displayed.||
-|| User clicks the options button || System is at the main menu or pause screen. || The Options page is displayed. ||
-|| User clicks the quit game button || System is at the main menu or pause screen. || The game ends and the window closes. ||
+|| User clicks the options button || System is at the main menu or pause screen. || 1. The Options page is displayed. ||
+|| User clicks the quit game button || System is at the main menu or pause screen. || 1. The game ends and the window closes. ||
 || User clicks the resume game button. || Game is in play. User is at the pause screen. || 1.The game returns to the previous room. <br> 2. The game resumes ||
+|| User hits the A key || Game is in play. || 1. The main character moves to the left. ||
+|| User hits the S key || Game is in play. || 1. The main character moves down on the screen. ||
+|| User hits the D key || Game is in play. || 1. The main character moves to the right. ||
+|| User hits the W key || Game is in play. || 1. The main character moves up on the screen. ||
+|| User hits the R key || Game is in play. || 1. The gun currently being held is reloaded. ||
+|| User hits the P key || Game is in play. || 1. The system pauses the game and shows the upgrade screen. ||
+|| User hits the P key || Game is paused.  || 1. Game is unpaused and resumes. ||
+|| User hits the U key || Game is in play. || 1. The system pauses the game. <br> 2. The system shows the upgrade screen. ||
+|| User moves the mouse || Game is in play. || The main character rotates to face the mouse direction. ||
+|| 
