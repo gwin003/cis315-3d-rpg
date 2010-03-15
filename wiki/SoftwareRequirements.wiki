@@ -174,6 +174,23 @@ There are no extenuating assumptions or dependencies for the project.
 
 ----
 
+==3.10 Ammo System==
+===3.10.1 Description and Priority===
+    The game will feature an ammo system for keeping track of how much ammo is currently in your weapons.  The system will need to hold information about how much ammo the weapons can hold in a clip and in total as well as the amount of ammo currently in the clip and how much ammo is held in total.  The ammo in the clip will be decremented every time the player shoots and when the ammo in the clip reaches 0 or the player manually reloads the weapon ammo will be taken from the total and transfered to the clip.  Players will be able to manually reload by hitting the 'r' key.  Ammo can be refilled by colliding with ammo pick-ups which can be found in certain destroyable crates. <br> This feature has a high priority because without ammo the player would not be able to shoot to destroy the enemies.
+===3.10.2 Response Sequences===
+|| UC 10 || The user can shoot his/her weapon and see the ammo deplete.  The user can reload his/her weapon to refill the ammo in the clip. ||
+|| Description: || The system should have an ammo/reload system to keep track of the current ammo held by the player for each of the weapons. ||
+|| Precondition: || The user has a weapon. ||
+|| Post-condition: || The system displays the current amount of ammo in the weapon. ||
+|| Normal Sequence: || The user starts the game. <br> The system shows the current amount of ammo in the weapon. <br> The user shoots the weapon by clicking. <br> The system decrements the ammo in the clip. <br> The user reloads his/her weapon. <br> The system moves some of the ammo from the total ammo to the clip.||
+
+
+
+===3.9.3 Functional Requirements===
+    When the user uses his/her weapon the system needs to keep track of how much ammo is in the weapon.  This will let the user know how many more times they can shoot that weapon before they need to find an ammo pick-up.
+
+----
+
 = 4.	External Interface Requirements =
 == 4.1	User Interfaces ==
 The User Interface will consist of the main game window that will show the main character and any NPCs, enemies, obstacles, scenery, background images, and items that are within the view distance of the character.  Any combination of these objects may be displayed at any time given the number of situations a player could get his/her character into.
