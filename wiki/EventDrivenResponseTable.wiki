@@ -17,3 +17,27 @@
 || User hits the U key || Game is in play. || 1. The system pauses the game. <br> 2. The system shows the upgrade screen. ||
 || User moves the mouse || Game is in play. || The main character rotates to face the mouse direction. ||
 || 
+
+
+
+
+
+
+
+
+
+
+|| Distance between enemy and player reaches "seen" point || Game is in play. Enemy has not been shot. || 1. Enemy starts chasing player ||
+|| Distance between enemy and player exceeds "seen" point || Game is in play. Enemy has not been shot. || 1. Enemy does not chase player ||
+|| Bullet collides with enemy || Game is in play. Enemy has not been shot. || 1. Enemy starts chasing player. <br> 2. Reduce enemy health. ||
+|| Bullet collides with enemy || Game is in play. Enemy has been shot previously. || 1. Reduce enemy health. ||				
+|| Bullet collides with a wall || Game is in play. || 1. Destroy the bullet instance. ||					,
+|| Bullet collides with a breakable crate || Game is in play. || 1. Reduce the crates health. ||				
+|| Zombie collides with a breakable crate || Game is in play. || 1. Reduce the crates health. ||				
+|| The pistol runs out of ammo || Game is in play. Current gun is pistol || 1. The system starts the reload script to reload the pistol. ||			
+|| The shotgun runs out of ammo || Game is in play. Current gun is shotgun || 1. The system starts the reload script to reload the shotgun. ||
+|| The machine gun runs out of ammo || Game is in play. Current gun is machine gun. || 1. The system starts the reload script to reload the machine gun. ||
+|| The enemy runs out of health || Game is in play. || 1. Stop the enemy. <br> 2. Change instance to 'blood pool' object. <br> 3. Create blood emitter. ||
+|| The breakable crate runs out of health || Game is in play. || 1. Destroy the crate instance. <br> 2. Create random pickup. ||				
+|| The main character runs out of health || Game is in play. || 1. Initiate death animation. <br> 2. Play sound. Show game over screen. ||				
+|| A crate collides with a wall || Game is in play. || 1. Stop the crate from moving towards the wall. ||				
