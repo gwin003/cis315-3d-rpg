@@ -89,3 +89,88 @@
     Once all the quest requirements of the game are met, the game will begin an ending sequence and the game will end.  
     
 ----
+
+==3.7 Multiple Rooms==
+===3.7.1 Description and Priority===
+    The game will feature multiple rooms for the player to explore.  These rooms will differ in the enemies, encounters, pick-ups, and scenery.  Some of the rooms will be dedicated specifically to boss battles, where the ingredients required for game completion will be found. <br> This feature has a high priority because without rooms there would be no game.
+===3.7.2 Response Sequences===
+|| UC 07 || The user enters the game and moves in and between rooms. ||
+|| Description: || The system must hold the information for multiple rooms for the user to explore. ||
+|| Precondition: || The user starts the game. ||
+|| Post-condition: || The system displays the current room and handles the user moving to different rooms. ||
+|| Normal Sequence: || The user starts the game. <br> The system displays the current room to the user. <br> The user interacts with the various enemies, encounters, pick-ups, and scenery in the room. <br> The user moves to a defined room transition point. <br> The system moves the user to the next room. ||
+
+
+
+===3.7.3 Functional Requirements===
+    Once the user starts the game, the system must display the current room.  When the user hits a room transition point, the system must move the user to the next room.
+
+----
+
+==3.8 Multiple Enemies==
+===3.8.1 Description and Priority===
+    The game will feature multiple enemies for the player to interact with.  There will be  multiple enemies, but all of them will have a defined amount of health and strength.  The health will determine how much damage an enemy can take and the strength will determine how much damage the enemy outputs.  Some enemies will have to collide with the player to cause damage whereas others will launch projectiles.  There will also be boss enemies that will have much higher health and damage than the common enemies.  The boss enemies will have to be defeated to collect the ingredients required for game completion. <br> This feature has a high priority because without enemies there would be no challenge to the game as well as no way to gather the ingredients required for game completion.
+===3.8.2 Response Sequences===
+|| UC 08 || The user encounters enemies while playing the game. ||
+|| Description: || The system should have multiple enemies for the user to interact with. ||
+|| Precondition: || The user starts the game and ventures beyond the safety of the initial starting area. ||
+|| Post-condition: || The system displays enemies to the user who try to attack the player and ultimately bring his/her health down to 0. ||
+|| Normal Sequence: || The user starts the game. <br> The user leaves the safe area. <br> The user interacts with the various enemies, deals and receives damage to and from them. ||
+
+
+
+===3.8.3 Functional Requirements===
+    Once the user leaves the safe area, the system must display enemies that are trying to attack the player.  The system needs to keep track of how much damage the enemies have taken and remove them from the room after their health reaches 0.
+
+----
+
+==3.9 Multiple Character Sprites==
+===3.9.1 Description and Priority===
+    The game will feature multiple character sprites corresponding to each of the weapons in the game.  The character will need to look as though he is holding a different weapon matching the selected weapon type.  This will make it easier for the user to identify which weapon he/she is using and also increase the realism of the game.  The character sprite will always face in the direction of the player's mouse and will respond to the player pressing the movement keys by moving in the appropriate direction.  The movement will be animated by combining multiple sprites of the character's feet and legs "moving" to add to the realism of the game. <br> This feature has a high priority because without any player sprites the user wouldn't be able to see where they are moving on the screen.
+===3.9.2 Response Sequences===
+|| UC 09 || The user enters the game and can see his/her character responding to their actions. ||
+|| Description: || The system should have multiple character sprites that represent different user actions on the character. ||
+|| Precondition: || The user starts the game. ||
+|| Post-condition: || The system displays the character sprite and changes the sprite based on their input. ||
+|| Normal Sequence: || The user starts the game. <br> The system draws the character sprite. <br> The user moves around the room by pressing the movement keys. <br> The system draws the animated walking sprites. <br> The user changes his/her weapon. <br> The system changes the character sprite according to the chosen weapon.||
+
+
+
+===3.9.3 Functional Requirements===
+    Once the user starts the game the system should display the character sprite and be able to change the sprite based on the user's specific inputs such as movement and changing weapons.
+
+----
+
+==3.10 Ammo System==
+===3.10.1 Description and Priority===
+    The game will feature an ammo system for keeping track of how much ammo is currently in your weapons.  The system will need to hold information about how much ammo the weapons can hold in a clip and in total as well as the amount of ammo currently in the clip and how much ammo is held in total.  The ammo in the clip will be decremented every time the player shoots and when the ammo in the clip reaches 0 or the player manually reloads the weapon ammo will be taken from the total and transfered to the clip.  Players will be able to manually reload by hitting the 'r' key.  Ammo can be refilled by colliding with ammo pick-ups which can be found in certain destroyable crates. <br> This feature has a high priority because without ammo the player would not be able to shoot to destroy the enemies.
+===3.10.2 Response Sequences===
+|| UC 10 || The user can shoot his/her weapon and see the ammo deplete.  The user can reload his/her weapon to refill the ammo in the clip. ||
+|| Description: || The system should have an ammo/reload system to keep track of the current ammo held by the player for each of the weapons. ||
+|| Precondition: || The user has a weapon. ||
+|| Post-condition: || The system displays the current amount of ammo in the weapon. ||
+|| Normal Sequence: || The user starts the game. <br> The system shows the current amount of ammo in the weapon. <br> The user shoots the weapon by clicking. <br> The system decrements the ammo in the clip. <br> The user reloads his/her weapon. <br> The system moves some of the ammo from the total ammo to the clip.||
+
+
+
+===3.10.3 Functional Requirements===
+    When the user uses his/her weapon the system needs to keep track of how much ammo is in the weapon.  This will let the user know how many more times they can shoot that weapon before they need to find an ammo pick-up.
+
+----
+
+==3.11 Weapon Sounds==
+===3.11.1 Description and Priority===
+    The game will feature different sounds for each of the weapons the player can use.  There will need to be a sound not only for shooting the weapon but also reloading the weapon. <br> This feature has a medium priority because it increases the realism of the game and makes it more interesting for the user..
+===3.11.2 Response Sequences===
+|| UC 11 || The user can shoots or reloads his/her weapon and a sound is played. ||
+|| Description: || The system should play a sound when the user shoots or reloads a weapon. ||
+|| Precondition: || The user has a weapon. ||
+|| Post-condition: || The system plays the sound. ||
+|| Normal Sequence: || The user starts the game. <br> The user shoots a weapon. <br> The system plays a sound. <br> The user reloads a weapon. <br> The system plays a sound.||
+
+
+
+===3.11.3 Functional Requirements===
+    When the user shoots or reloads his/her weapon and the system plays a specific sound for each weapon.
+
+----
