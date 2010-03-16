@@ -1,6 +1,6 @@
 =Event-driven Response Tables=
 
-|| Event || System State || Response ||
+|| <b>Event</b> || <b>System State</b> || <b>Response</b> ||
 || User clicks the new game button || System is at the main screen || 1. All appropriate global variables are initialized. <br> 2. HUD is displayed.||
 || User clicks the load game button || System is at the main screen || 1. Saved game data is loaded and game resumes. <br> 2. HUD is displayed.||
 || User clicks the save game button || Game is in play. User is at the pause screen. || 1. System saves the current state of the game in an external file. <br> 2. HUD is displayed.||
@@ -15,23 +15,35 @@
 || User hits the P key || Game is in play. || 1. The system pauses the game and shows the upgrade screen. ||
 || User hits the P key || Game is paused.  || 1. Game is unpaused and resumes. ||
 || User hits the U key || Game is in play. || 1. The system pauses the game. <br> 2. The system shows the upgrade screen. ||
-|| User moves the mouse || Game is in play. || The main character rotates to face the mouse direction. ||
-|| 
-
-
-
-
-
-
-
-
-
-
+|| User moves the mouse || Game is in play. || 1. The main character rotates to face the mouse direction. ||
+|| User clicks the left mouse button || Game is play. Character has ammo. Pistol is equipped. || 1. Bullet is created. <br> 2. Loaded ammo is decremented. <br> 3. Sound is played. ||
+|| User clicks the left mouse button || Game is play. Character has ammo. Shotgun is equipped. || 1. Bullets are created. <br> 2. Loaded ammo is decremented. <br> 3. Sound is played.||
+|| User clicks the left mouse button || Game is play. Character has ammo. Machine gun is equipped. || 1. Bullet is created. <br> 2. Loaded ammo is decremented. <br> 3. Sound is played. ||
+|| User clicks the left mouse button || Game is play. Character is out of ammo. Pistol is equipped. || 1. Do nothing. <br>2. Show RELOAD alert. ||
+|| User clicks the left mouse button || Game is play. Character is out of ammo. Shotgun is equipped. || 1. Do nothing. <br>2. Show RELOAD alert. ||
+|| User clicks the left mouse button || Game is play. Character is out of ammo. Machine gun is equipped. || 1. Do nothing. <br>2. Show RELOAD alert. ||
+|| User scrolls the mouse wheel up. || Game is in play. Pistol is current gun equipped. || 1. Do nothing. ||
+|| User scrolls the mouse wheel up. || Game is in play. Shotgun is current gun equipped. || 1. Switch current gun to pistol. <br>2. Change sprite. <br>3. Sound is played. ||
+|| User scrolls the mouse wheel up. || Game is in play. Machine gun is current gun equipped. || 1. Switch current gun to shotgun. <br>2. Change sprite. <br>3. Sound is played. ||
+|| User scrolls the mouse wheel down. || Game is in play. Pistol is current gun equipped. || 1. Switch current gun to shotgun. <br>2. Change sprite. <br>3. Sound is played. ||
+|| User scrolls the mouse wheel down. || Game is in play. Shotgun is current gun equipped. || 1. Switch current gun to machine gun. <br>2. Change sprite. <br>3. Sound is played. ||
+|| User scrolls the mouse wheel down. || Game is in play. Machine gun is current gun equipped. || 1. Do nothing. ||
+|| User hits any keyboard key. || Game is at main menu or pause screen. || 1. Do nothing. ||
+|| Main character collides with a room transition object. || Game is in play. || 1. System changes to appropriate room specific to the object. ||
+|| Main character collides with a solid object. || Game is in play.||  1. Main character is stopped by the object. ||
+|| Main character collides with a movable crate. || Game is in play.|| 1. Main character is slowed and is able to push the crate. ||
+|| Main character collides with an enemy. || Game is in play. || 1. Main characters health is reduced specific to the enemy type. <br> 2. Show damage aura. ||
+|| Main character collides with a pistol ammo pickup. || Game is in play. Player is able to carry more pistol ammo. || 1. Pistol ammo being carried is increased by the ammo type and amount. <br> 2. Destroy pickup. ||
+|| Main character collides with a shotgun ammo pickup. || Game is in play.  Player is able to carry more shotgun ammo. || 1. Shotgun ammo being carried is increased by the ammo type and amount. <br> 2. Destroy pickup. ||
+|| Main character collides with a machine gun ammo pickup. || Game is in play.  Player is able to carry more machine gun ammo. || 1. Machine gun ammo being carried is increased by the ammo type and amount. <br> 2. Destroy pickup. ||
+|| Main character collides with a small health pickup. || Game is in play. Players health is not full. || 1. Main characters health is increased by 20. <br> 2. Destroy pickup. ||
+|| Main character collides with a large health pickup. || Game is in play. Players health is not full. || 1. Main characters health is increased 40. <br> 2. Destroy pickup. ||
+|| Main character collides with a special pickup. || Game is in play. || 1. Item is added to players inventory. <br> 2. Destroy pickup. ||
 || Distance between enemy and player reaches "seen" point || Game is in play. Enemy has not been shot. || 1. Enemy starts chasing player ||
 || Distance between enemy and player exceeds "seen" point || Game is in play. Enemy has not been shot. || 1. Enemy does not chase player ||
 || Bullet collides with enemy || Game is in play. Enemy has not been shot. || 1. Enemy starts chasing player. <br> 2. Reduce enemy health. ||
 || Bullet collides with enemy || Game is in play. Enemy has been shot previously. || 1. Reduce enemy health. ||				
-|| Bullet collides with a wall || Game is in play. || 1. Destroy the bullet instance. ||					,
+|| Bullet collides with a wall || Game is in play. || 1. Destroy the bullet instance. ||					
 || Bullet collides with a breakable crate || Game is in play. || 1. Reduce the crates health. ||				
 || Zombie collides with a breakable crate || Game is in play. || 1. Reduce the crates health. ||				
 || The pistol runs out of ammo || Game is in play. Current gun is pistol || 1. The system starts the reload script to reload the pistol. ||			
