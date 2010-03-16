@@ -193,7 +193,7 @@ There are no extenuating assumptions or dependencies for the project.
 
 ==3.11 Weapon Sounds==
 ===3.11.1 Description and Priority===
-    The game will feature different sounds for each of the weapons the player can use.  There will need to be a sound not only for shooting the weapon but also reloading the weapon. <br> This feature has a medium priority because it increases the realism of the game and makes it more interesting for the user..
+    The game will feature different sounds for each of the weapons the player can use.  There will need to be a sound not only for shooting the weapon but also reloading the weapon. <br> This feature has a medium priority because it increases the realism of the game and makes it more interesting for the user.
 ===3.11.2 Response Sequences===
 || UC 11 || The user can shoots or reloads his/her weapon and a sound is played. ||
 || Description: || The system should play a sound when the user shoots or reloads a weapon. ||
@@ -205,6 +205,23 @@ There are no extenuating assumptions or dependencies for the project.
 
 ===3.11.3 Functional Requirements===
     When the user shoots or reloads his/her weapon and the system plays a specific sound for each weapon.
+
+----
+
+==3.12 Blood Particle System==
+===3.12.1 Description and Priority===
+    The game will feature a blood particle emission system that will create blood particles when a player damages an enemy.  There will be two parts to the system, the first part being the creation of simple blood particle objects that will spawn in random directions.  The second part will be a particle emission system that will create particles based on the direction the player shoots the enemy from. <br> This feature has a medium priority because it increases the realism of the game and makes it more interesting for the user.
+===3.12.2 Response Sequences===
+|| UC 12 || The user can shoots an enemy and blood is emitted from the enemy according to the direction the player shoots from. ||
+|| Description: || The system should create blood particles when the player damages an enemy. ||
+|| Precondition: || The user shoots an enemy. ||
+|| Post-condition: || The system emits blood particles from the enemy. ||
+|| Normal Sequence: || The user starts the game. <br> The user shoots an enemy. <br> The system emits blood particles from the enemy.||
+
+
+
+===3.12.3 Functional Requirements===
+    When the user shoots an enemy the system projects blood particles from the enemy according to the direction the player is shooting from.
 
 ----
 
