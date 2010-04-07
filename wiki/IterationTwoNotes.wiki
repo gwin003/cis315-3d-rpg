@@ -4,7 +4,7 @@
 
 This page summarizes what has been changed or added in the second iteration of the game. Some things were changed to improve the usability of the game. Some were changes to enhance the experience of the game. Additions to the game were things that were meant to improve the overall experience of the game, or to improve performance.
 
-
+<br> <br>
 = 2. Details =
 
 == 2.1 Changes to the existing game include: ==
@@ -41,9 +41,7 @@ This page summarizes what has been changed or added in the second iteration of t
 === 2.1.4 Changed the minimap color for solid objects <br> ===
     In the first iteration, the marker color on the minimap for solid objects was white. This was sometimes difficult to see, so the marker color was changed to black.
 
-
-
-
+<br> <br>
 == 2.2 Functionality Added to the existing game: ==
 === 2.2.1 Added two new crates (an indestructible crate and one the player can use as a barrier)  <br> ===
 === 2.2.2 Added NPCs (non-playable characters) and the interactions with them.  <br> ===
@@ -107,7 +105,7 @@ This page summarizes what has been changed or added in the second iteration of t
 || Post-conditions: || The name selected by the user is saved in a global variable and is displayed in the HUD. ||
 || Normal Sequence: || The user starts a new game. <br> The system asks for a name. <br> The user inputs a name. <br> The system saves the name to a file and displays it in the HUD. ||
 
-== 2.2.8 Added Autosaving Functionality ==
+=== 2.2.8 Added Autosaving Functionality ===
    The game now automatically saves whenever the main character changes rooms. 
 
 || UC ##### || The system automatically saves the game periodically. ||
