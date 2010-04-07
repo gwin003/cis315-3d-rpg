@@ -41,6 +41,9 @@ This page summarizes what has been changed or added in the second iteration of t
 === 2.1.4 Changed the minimap color for solid objects <br> ===
     In the first iteration, the marker color on the minimap for solid objects was white. This was sometimes difficult to see, so the marker color was changed to black.
 
+
+
+
 == 2.2 Functionality Added to the existing game: ==
 === 2.2.1 Added two new crates (an indestructible crate and one the player can use as a barrier)  <br> ===
 === 2.2.2 Added NPCs (non-playable characters) and the interactions with them.  <br> ===
