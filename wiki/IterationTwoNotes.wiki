@@ -3,8 +3,7 @@
 = 1. Introduction =
 
 This page summarizes what has been changed or added in the second iteration of the game. Some things were changed to improve the usability of the game. Some were changes to enhance the experience of the game. Additions to the game were things that were meant to improve the overall experience of the game, or to improve performance.
-
-<br> <br>
+<br>
 = 2. Details =
 
 == 2.1 Changes to the existing game include: ==
