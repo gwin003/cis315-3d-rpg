@@ -1,0 +1,90 @@
+#summary Summary of the requirements and functionality changed or added with the second iteration.
+
+= 1. Introduction =
+
+This page summarizes what has been changed or added in the second iteration of the game. Some things were changed to improve the usability of the game. Some were changes to enhance the experience of the game. Additions to the game were things that were meant to improve the overall experience of the game, or to improve performance.
+
+
+= 2. Details =
+
+== 2.1 Changes to the existing game include: ==
+=== 2.1.1 Improved Save/Load system <br> ===
+    The previous save/load system was difficult to use, and required the user to remember the name of the game he/she previously saved. The user now can define the name of the saved game when a new game is started, and when the game is automatically saved, it uses the name of the character. The new system opens up the file browsing window and allows the user to choose a saved game to load.
+
+|| UC  01 || The User saves a game ||
+|| Description: || The system must have the capability to save the current state of the game being played. ||
+|| Precondition: || A game is currently being played. ||
+|| Postcondition: || The current game has been saved in a file. ||
+|| Normal Sequence: || The user selects the save option from the menu. <br>The system opens a dialog window where the user can specify the game's name and the location where it can be saved to. <br> The user makes the necessary choices. <br> The system saves the game in a file.   ||
+|| UC 02 || The user loads a game ||
+|| Description: || The system must be able to load a game from a file.||
+|| Precondition: || A game has already been saved to a file. ||
+|| Post-condition: || The game has been loaded from a file, and is currently being played. ||
+|| Normal Sequence: ||   The user selects the load option from the menu. <br> The system opens a dialog window for the user to choose a file to load. <br> The user makes the necessary choices. <br> The System loads the game from the file. ||
+|| Exceptions: || Condition:  No saved file already exists. <br> Action: The user clicks on cancel. <br> Ending: The use case aborts. ||
+
+
+
+=== 2.1.2 Improved Room transitions <br> ===
+    The previous room transition system was inefficient, and all of the logic to change rooms was included in the individual objects. Now the object passes a string to a script, and the script handles the room transitions. Also, we were having problems when switching rooms, and sometimes getting stuck between them. Now the user will have to press a key while colliding with the room transition object. The room transition system now takes advantage of the Mediator design pattern.
+
+|| UC 03 || The user collides with the room transition object and presses E ||
+|| Description: || They system should handle the event, and change rooms accordingly. ||
+|| Precondition: || The player must be within a certain range on the object, and press E. ||
+|| Post-condition: || The system changes rooms according to the parameters passed to the script. ||
+|| Normal Sequence: || The player collides with the room transition object. <br> The user presses E. <br> The system handles the event and changes rooms. ||
+
+
+=== 2.1.3 Removed sounds when entering a new room <br> ===
+    When entering a new room in the first iteration, the reload sound for the current gun was played. This was removed.
+
+=== 2.1.4 Changed the minimap color for solid objects <br> ===
+    In the first iteration, the marker color on the minimap for solid objects was white. This was sometimes difficult to see, so the marker color was changed to black.
+
+== 2.2 Functionality Added to the existing game: ==
+=== 2.2.1 Added two new crates (an indestructible crate and one the player can use as a barrier)  <br> ===
+=== 2.2.2 Added NPCs (non-playable characters) and the interactions with them.  <br> ===
+    All games have non-playable characters which the main character can interact with. NPCs have been added to the second iteration. There are a few types of non-playable characters, including regular civilians, military guards, and merchants. The player can also interact with the characters depending on the type of NPC. The response from the non-playable character will be a random response defined in a script.
+
+|| UC 04 || The user collides with a NPC and presses E. ||
+|| Description: || The player is able to interact with the non-playable characters scattered throughout the world.  ||
+|| Precondition: || The main player is within a certain distance of the NPC, and the user presses the E key. ||
+|| Post-condition: || The system displays some response from the character. ||
+|| Normal Sequence: || The main character is within a certain distance of the NPC. <br> The user presses E. <br> The system starts a script, which selects a random number. <br> The random number decides the response from the NPC. <br> The response is displayed to the user.||
+
+
+=== 2.2.3 Added a enemy "factory" function. When entering a new room, the game will automatically generate more enemies if there is not enough present  <br> ===
+   Since the user is able to go from room to room and back to previous rooms, enemies should be added to the rooms that were previously cleared by the player. Upon entering a room with no enemies, a script will count the number of enemy instances, and generate more enemies if needed.
+|| UC 05 || The system generates more enemies upon entering a room. ||
+|| Desciption: || Upon entering a new room, a script will count the number of enemy instances, and add more enemies depending on the number in the room. ||
+|| Precondition: || The player enters a new room. ||
+|| Post-condition: || The system generated enemies up to a predefined number. ||
+|| Normal Sequence: || The player enters a new room. <br> The system counts the number of enemy instances, and adds more if needed.||
+
+
+=== 2.2.4 Interaction popup window  <br> ===
+    In order for the user playing the game to know what they can interact with, an interact alert should be shown. This is a small sprite that is drawn on the screen that instructs the user to press a key.
+
+|| UC 06 || The system should display an alert when the player can interact with something. ||
+|| Description: || When the play is within a certain distance of something he is able to interact with, the system should display the alert. ||
+|| Precondition: || The player is within a certain distance of an interactable object, and the user presses E. ||
+|| Post-condition: || The system displays a response to the interaction. ||
+|| Normal Sequence: || The player is within a certain distance of the interactable object. <br> The user presses E. <br> The system handles the interaction by displaying a message, or showing a menu.||
+
+=== 2.2.5 Player death sequence when the player runs out of health  <br> ===
+    As in any game, when the character runs out of health the game ends. Once the character runs out of health, the user is given the option of starting from the previous save point, or quitting the game completely. 
+
+=== 2.2.6 Added money system functionality  <br> ===
+    The player will be able to carry money around with him. You can get more money by killing zombies, completing quests, or finding money in the wild. Additionally, whenever the main player runs out of health, some money will be taken away from him.
+
+=== 2.2.7 User can now name his/her character <br> ===
+    The user playing the game is now able to name the main character. This will be saved in a global variable, and is displayed on the HUD in the game. The name of the character is also the default name of the save file when the game is saved.
+
+== 2.2.8 Added Autosaving Functionality ==
+   The game now automatically saves whenever the main character changes rooms. 
+
+|| UC ##### || The system automatically saves the game periodically. ||
+|| Description: || Whenever the player enters a different room, the system automatically saves the game in an external file. ||
+|| Precondition: || The player changes rooms.||
+|| Post-condition: || The game is saved. ||
+|| Normal Sequence: || The player enters a new room. <br> The system saves the current state of the system to an external file. ||
