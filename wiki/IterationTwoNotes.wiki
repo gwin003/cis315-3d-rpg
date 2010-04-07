@@ -74,11 +74,23 @@ This page summarizes what has been changed or added in the second iteration of t
 === 2.2.5 Player death sequence when the player runs out of health  <br> ===
     As in any game, when the character runs out of health the game ends. Once the character runs out of health, the user is given the option of starting from the previous save point, or quitting the game completely. 
 
+|| UC 07 || The system should handle the character running out of health. ||
+|| Description: || As in any game, the system must handle the character running out of health. ||
+|| Precondition: || The main character runs out of health. ||
+|| Post-condition: || The user makes a decision to load last save point or exit, and the system handles the user request. ||
+|| Normal Sequence: || The character runs out of health. <br> The system displays a message asking the user if he/she wants to continue from the previous save point. <br> The system handles the user input.||
+
 === 2.2.6 Added money system functionality  <br> ===
     The player will be able to carry money around with him. You can get more money by killing zombies, completing quests, or finding money in the wild. Additionally, whenever the main player runs out of health, some money will be taken away from him.
 
 === 2.2.7 User can now name his/her character <br> ===
     The user playing the game is now able to name the main character. This will be saved in a global variable, and is displayed on the HUD in the game. The name of the character is also the default name of the save file when the game is saved.
+
+|| UC ##### || The system allows the user to name his/her character. ||
+|| Description: || When a new game is started, the user can name the newly created character. ||
+|| Preconditions: || A new game is started. ||
+|| Post-conditions: || The name selected by the user is saved in a global variable and is displayed in the HUD. ||
+|| Normal Sequence: || The user starts a new game. <br> The system asks for a name. <br> The user inputs a name. <br> The system saves the name to a file and displays it in the HUD. ||
 
 == 2.2.8 Added Autosaving Functionality ==
    The game now automatically saves whenever the main character changes rooms. 
