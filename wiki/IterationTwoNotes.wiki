@@ -83,6 +83,18 @@ This page summarizes what has been changed or added in the second iteration of t
 === 2.2.6 Added money system functionality  <br> ===
     The player will be able to carry money around with him. You can get more money by killing zombies, completing quests, or finding money in the wild. Additionally, whenever the main player runs out of health, some money will be taken away from him.
 
+|| UC ##### || The player recieves a reward for killing a enemy. ||
+|| Description: || The player kills an enemy and gets a reward. ||
+|| Precondition: || The player kills an enemy.||
+|| Post-condition: || The system increases the amount of money the character has.||
+|| Normal Sequence: || The character kills a zombie. <br> The system increases the money held by the main character by a random number in a defined range.||
+
+|| UC ##### || The player loses money from being killed by an enemy. ||
+|| Description: || The player is killed and loses a percentage of his total money. ||
+|| Precondition: || The player is killed by an enemy.||
+|| Post-condition: || The system decreases the amount of money the character has.||
+|| Normal Sequence: || The character is killed by an enemy. <br> The system decreases the money held by the main character by a percentage of the total money held.||
+
 === 2.2.7 User can now name his/her character <br> ===
     The user playing the game is now able to name the main character. This will be saved in a global variable, and is displayed on the HUD in the game. The name of the character is also the default name of the save file when the game is saved.
 
