@@ -40,6 +40,9 @@ This page summarizes what has been changed or added in the second iteration of t
 === 2.1.4 Changed the minimap color for solid objects <br> ===
     In the first iteration, the marker color on the minimap for solid objects was white. This was sometimes difficult to see, so the marker color was changed to black.
 
+=== 2.1.5 Fixed the shooting bug <br> ===
+    In the first game, there was a bug where the user would shoot near the player and the bullets would go in random directions. This was now changed so the mouse has to be farther away from the player to shoot.
+
 <br> <br>
 == 2.2 Functionality Added to the existing game: ==
 === 2.2.1 Added two new crates (an indestructible crate and one the player can use as a barrier)  <br> ===
@@ -83,13 +86,13 @@ This page summarizes what has been changed or added in the second iteration of t
 === 2.2.6 Added money system functionality  <br> ===
     The player will be able to carry money around with him. You can get more money by killing zombies, completing quests, or finding money in the wild. Additionally, whenever the main player runs out of health, some money will be taken away from him.
 
-|| UC ##### || The player recieves a reward for killing a enemy. ||
+|| UC 08 || The player recieves a reward for killing a enemy. ||
 || Description: || The player kills an enemy and gets a reward. ||
 || Precondition: || The player kills an enemy.||
 || Post-condition: || The system increases the amount of money the character has.||
 || Normal Sequence: || The character kills a zombie. <br> The system increases the money held by the main character by a random number in a defined range.||
 
-|| UC ##### || The player loses money from being killed by an enemy. ||
+|| UC 09 || The player loses money from being killed by an enemy. ||
 || Description: || The player is killed and loses a percentage of his total money. ||
 || Precondition: || The player is killed by an enemy.||
 || Post-condition: || The system decreases the amount of money the character has.||
@@ -98,7 +101,7 @@ This page summarizes what has been changed or added in the second iteration of t
 === 2.2.7 User can now name his/her character <br> ===
     The user playing the game is now able to name the main character. This will be saved in a global variable, and is displayed on the HUD in the game. The name of the character is also the default name of the save file when the game is saved.
 
-|| UC ##### || The system allows the user to name his/her character. ||
+|| UC 10 || The system allows the user to name his/her character. ||
 || Description: || When a new game is started, the user can name the newly created character. ||
 || Preconditions: || A new game is started. ||
 || Post-conditions: || The name selected by the user is saved in a global variable and is displayed in the HUD. ||
@@ -107,8 +110,14 @@ This page summarizes what has been changed or added in the second iteration of t
 === 2.2.8 Added Autosaving Functionality ===
    The game now automatically saves whenever the main character changes rooms. 
 
-|| UC ##### || The system automatically saves the game periodically. ||
+|| UC 11 || The system automatically saves the game periodically. ||
 || Description: || Whenever the player enters a different room, the system automatically saves the game in an external file. ||
 || Precondition: || The player changes rooms.||
 || Post-condition: || The game is saved. ||
 || Normal Sequence: || The player enters a new room. <br> The system saves the current state of the system to an external file. ||
+
+=== 2.2.9 Added first Ingredient ===
+    The game now has the first ingredient implemented. It is dropped from the first boss in the cave room.
+
+=== 2.2.10 Added boss zombie ===
+    The first boss zombie has been finished and added to the game. He drops the first quest ingredient.
