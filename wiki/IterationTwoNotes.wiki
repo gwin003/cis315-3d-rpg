@@ -46,6 +46,8 @@ This page summarizes what has been changed or added in the second iteration of t
 <br> <br>
 == 2.2 Functionality Added to the existing game: ==
 === 2.2.1 Added two new crates (an indestructible crate and one the player can use as a barrier)  <br> ===
+    We have added two new crates: One that is completely indestructible to both players and enemies. The other crate is destroyable by zombies, but allows the player to shoot over the crate at the enemies. This crate can be used as a barricade.
+
 === 2.2.2 Added NPCs (non-playable characters) and the interactions with them.  <br> ===
     All games have non-playable characters which the main character can interact with. NPCs have been added to the second iteration. There are a few types of non-playable characters, including regular civilians, military guards, and merchants. The player can also interact with the characters depending on the type of NPC. The response from the non-playable character will be a random response defined in a script.
 
