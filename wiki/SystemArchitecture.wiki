@@ -1,0 +1,6 @@
+#summary High level view of the system architecture for Psychomachia.
+#labels Featured
+
+= System Architecture =
+
+<a href="http://s487.photobucket.com/albums/rr235/frombach002/?action=view&current=SystemArchitecture.png" target="_blank"><img src="http://i487.photobucket.com/albums/rr235/frombach002/SystemArchitecture.png" border="0" alt="Photobucket">
