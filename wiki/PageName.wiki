@@ -1,0 +1,10 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+Add your content here.
+
+
+= Details =
+
+<a href="http://s487.photobucket.com/albums/rr235/frombach002/?action=view&current=SystemArchitecture.png" target="_blank"><img src="http://i487.photobucket.com/albums/rr235/frombach002/SystemArchitecture.png" border="0" alt="Photobucket"></a>
