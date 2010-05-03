@@ -4,14 +4,13 @@
 || || <b>Event</b> || <b>System State</b> || <b>Response</b> ||
 || E1 || User clicks the new game button || Game is at the main screen || 1. All appropriate global variables are initialized. <br> 2. HUD is displayed.||
 || E2 || User clicks the load game button || Game is at the main screen || 1. Saved game data is loaded and game resumes. <br> 2. HUD is displayed.||
-|| E3 || User clicks the options button || Game is at the main menu. || 1. The Options page is displayed. ||
-|| E4 || User clicks the options button || Game is at the main menu. || 1. The Options page is displayed. ||
-|| E5 || User clicks the quit game button || Game is at the main menu. || 1. The game ends and the window closes. ||
-|| E6 || User hits any keyboard key. || Game is at main menu. || 1. Do nothing. ||
+|| E3 || User clicks the instructions button || Game is at the main menu. || 1. The Instructions page is displayed. ||
+|| E4 || User clicks the quit game button || Game is at the main menu. || 1. The game ends and the window closes. ||
+|| E5 || User hits any keyboard key. || Game is at main menu. || 1. Do nothing. ||
 
 == Pause Screen ==
 || E7 || User clicks the save game button ||  Game is at the pause screen. || 1. System saves the current state of the game in an external file. <br> 2. HUD is displayed.||
-|| E8 || User clicks the options button || Game is at the pause screen. || 1. The Options page is displayed. ||
+|| E8 || User clicks the instructions button || Game is at the pause screen. || 1. The Instructions page is displayed. ||
 || E9 || User clicks the quit game button || Game is at the pause screen. || 1. The game ends and the window closes. ||
 || E10 || User clicks the resume game button. || Game is at the pause screen. || 1.The game returns to the previous room. <br> 2. The game resumes ||
 || E11 || User hits the P key || Game is paused.  || 1. Game is unpaused and resumes. ||
