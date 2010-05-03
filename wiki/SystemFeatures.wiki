@@ -174,3 +174,20 @@
     When the user shoots or reloads his/her weapon and the system plays a specific sound for each weapon.
 
 ----
+
+==3.12 Character Movement==
+===3.12.1 Description and Priority===
+    The user will be able to control the character by using the keyboard.  Since the perspective is top-down 2D, the movement will be restricted to 360 degrees around the character.  The user will also control where the character looks by moving the mouse.<br> This feature is of high priority because it is how the user will interact with the game.
+===3.12.2 Response Sequences===
+|| UC 12 || The user hits a key and moves the character in that direction or the player moves their mouse. ||
+|| Description: || The system should move the on-screen character based on which key the user hit or the sprite should look at the mouse's location. ||
+|| Precondition: || The game is in play. ||
+|| Post-condition: || The character is moved or sprite is changed. ||
+|| Normal Sequence: || The user starts the game. <br> The user hits a directional key. <br> The character on-screen is moved.<br> The user moves the mouse. <br> The sprite continues to look at the mouse's location. ||
+
+
+
+===3.12.3 Functional Requirements===
+    When the user hits a directional key, the on-screen representation is moved in the appropriate direction.  When the mouse is moved, the character follows its direction.
+
+----
